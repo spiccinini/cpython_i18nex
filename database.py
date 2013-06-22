@@ -2,17 +2,13 @@ import os
 import re
 import sys
 import glob
-from collections import defaultdict
+from collections import defaultdict, namedtuple
 
 
 class ParseError(Exception):
     pass
 
-class ExceptionObj(object):
-
-    def __init__(self, name, text):
-        self.name = name
-        self.text = text
+ExceptionObj = namedtuple("ExceptionObj", ['name', 'text'])
 
 class CPythonExceptionImporter(object):
     """
@@ -40,52 +36,56 @@ class CPythonExceptionImporter(object):
         return set(blocks)
 
     @staticmethod
-    def parse_c_file(filename, database):
+    def parse_c_file(filename):
+        exceptions = set()
         with open(filename) as f:
             text = f.read()
         blocks = CPythonExceptionImporter.c_block_finder(text)
         for block in blocks:
             try:
                 exception_obj = CPythonExceptionImporter.parse_c_code(block)
-                database[exception_obj.name].add(exception_obj.text)
+                exceptions.add(exception_obj)
             except ParseError:
                 sys.stderr.write("Warning: Can't parse an exception on file %s\n" % filename)
 
-        return database
+        return exceptions
 
     def do_import(self):
-        database = defaultdict(set)
+        exceptions = set()
         filenames = glob.glob(os.path.join(self.path, 'Python', '*.c'))
         filenames.extend(glob.glob(os.path.join(self.path, 'Objects', '*.c')))
         filenames.extend(glob.glob(os.path.join(self.path, 'Modules', '*.c')))
         filenames.remove(os.path.join(self.path, 'Python', 'errors.c'))
         for filename in filenames:
-            self.parse_c_file(filename, database)
-        add_unhandled_exceptions(database)
-        return database
+            exceptions.update(self.parse_c_file(filename))
 
-def add_unhandled_exceptions(database):
-    database["NameError"].add("name '%.200s' is not defined")
-    database["NameError"].add("global name '%.200s' is not defined")
-    database["NameError"].add("local variable '%.200s' referenced before assignment")
-    database["NameError"].add("free variable '%.200s' referenced before assignment in enclosing scope")
+        exceptions.update(self.fixed_exceptions())
+        return exceptions
 
+    def fixed_exceptions(self):
+        return {
+            ExceptionObj("NameError",
+                         "name '%.200s' is not defined"),
+            ExceptionObj("NameError",
+                         "global name '%.200s' is not defined"),
+            ExceptionObj("NameError",
+                         "local variable '%.200s' referenced " \
+                         "before assignment"),
+            ExceptionObj("NameError",
+                         "free variable '%.200s' referenced " \
+                         "before assignment in enclosing scope"),
+        }
 
 if __name__ == "__main__":
     import pprint
     import pickle
     cpyimporter = CPythonExceptionImporter("/home/san/Downloads/Python-3.3.2")
-    database = cpyimporter.do_import()
+    exceptions = cpyimporter.do_import()
 
-    exception_type_count = len(database)
-    exception_count = 0
-    for key in database:
-        exception_count += len(database[key])
-    #pprint.pprint(database)
-    print("Different exception types: %d" % exception_type_count)
-    print("Total exception count: %d" % exception_count)
+
+    print("Total exception count: %d" % len(exceptions))
 
     with open('./original_db.pickle', 'wb') as f:
-        pickle.dump(database, f)
+        pickle.dump(exceptions, f)
         print('Database written to original_db.pickle')
 

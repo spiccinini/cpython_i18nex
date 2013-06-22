@@ -100,8 +100,8 @@ class CBlockSearcherTest(unittest.TestCase):
 
 
     def test_parse_posixmodule_file(self):
-        database = defaultdict(set)
-        self.imp.parse_c_file('./test_data/posixmodule.c', database)
+        exceptions = self.imp.parse_c_file('./test_data/posixmodule.c')
+        self.assertTrue(len(exceptions) > 50)
 
 
 if __name__ == "__main__":
