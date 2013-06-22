@@ -2,13 +2,57 @@ import os
 import re
 import sys
 import glob
+import pickle
 from collections import defaultdict, namedtuple
+
+import polib
 
 
 class ParseError(Exception):
     pass
 
-ExceptionObj = namedtuple("ExceptionObj", ['name', 'text'])
+
+ExceptionObj = namedtuple("ExceptionObj", ['name', 'text', 'language_code'])
+
+
+class ExceptionDatabase(object):
+
+    def __init__(self, exceptions=None):
+        self.exceptions = set()
+
+    def all(self):
+        return self.exceptions
+
+    def filter(self, name=None, lang=None):
+        def cond(val, name, lang):
+            result = True
+            if name is not None:
+                result = result and val.name == name
+            if lang is not None:
+                result = result and val.language_code == lang
+            return result
+        return {exc for exc in self.exceptions if cond(exc, name, lang)}
+
+    def filter_by_name_and_lang(self, name, lang):
+        return {exc for exc in self.exceptions if \
+                 exc.name == name and exc.language_code == lang}
+
+    def add(self, exception):
+        self.exceptions.add(exception)
+
+    def dump(self, fobj):
+        pickle.dump(self.exceptions, fobj)
+
+    @classmethod
+    def load_from_pickle(cls, file_obj):
+        return ExceptionDatabase(pickle.load(file_obj))
+
+    def export_as_po(self):
+        po = polib.POFile()
+        entry = polib.POEntry(
+            msgid=u'Welcome', msgstr=u'Bienvenue',
+            occurrences=[('welcome.py', '12')]
+        )
 
 
 class CPythonExceptionImporter(object):
@@ -25,7 +69,7 @@ class CPythonExceptionImporter(object):
             exc_type = re.search(r'PyExc_(\w+)', text).groups(1)[0]
         except (AttributeError, ) as e:
             raise ParseError('text: %s' % text)
-        return ExceptionObj(exc_type, text_error)
+        return ExceptionObj(exc_type, text_error, 'en')
 
     @staticmethod
     def c_block_finder(text):
@@ -67,27 +111,13 @@ class CPythonExceptionImporter(object):
     def fixed_exceptions(self):
         return {
             ExceptionObj("NameError",
-                         "name '%.200s' is not defined"),
+                         "name '%.200s' is not defined", "en"),
             ExceptionObj("NameError",
-                         "global name '%.200s' is not defined"),
+                         "global name '%.200s' is not defined", "en"),
             ExceptionObj("NameError",
                          "local variable '%.200s' referenced " \
-                         "before assignment"),
+                         "before assignment", "en"),
             ExceptionObj("NameError",
                          "free variable '%.200s' referenced " \
-                         "before assignment in enclosing scope"),
+                         "before assignment in enclosing scope", "en"),
         }
-
-if __name__ == "__main__":
-    import pprint
-    import pickle
-    cpyimporter = CPythonExceptionImporter("/home/san/Downloads/Python-3.3.2")
-    exceptions = cpyimporter.do_import()
-
-
-    print("Total exception count: %d" % len(exceptions))
-
-    with open('./original_db.pickle', 'wb') as f:
-        pickle.dump(exceptions, f)
-        print('Database written to original_db.pickle')
-
