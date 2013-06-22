@@ -1,16 +1,9 @@
 import os
-import re
 import sys
-import glob
 import pickle
 from collections import defaultdict, namedtuple
 
 import polib
-
-
-class ParseError(Exception):
-    pass
-
 
 ExceptionObj = namedtuple("ExceptionObj", ['name', 'text'])
 TranslationObj = namedtuple("ExceptionObj", ['exc_name', 'exc_text', 'language_code', 'translation'])
@@ -32,6 +25,10 @@ class Database(object):
     def load_from_pickle(cls, file_obj):
         return ExceptionDatabase(pickle.load(file_obj))
 
+    def pprint(self):
+        pprint.pprint(self.data)
+
+
 class ExceptionDatabase(Database):
     def __init__(self, exceptions=None):
         super(ExceptionDatabase, self).__init__(exceptions)
@@ -44,25 +41,33 @@ class ExceptionDatabase(Database):
             return result
         return {exc for exc in self.exceptions if cond(exc, name)}
 
-    def export_as_po(self):
+    def export_as_po(self, path):
         po = polib.POFile()
-        for exception in exceptions:
-            entry = polib.POEntry(
-                msgid=exception.text, msgstr='',
-                occurrences=[(exception.name, '')]
-            )
-            po.append(entry)
+        po.metadata = {
+            'MIME-Version': '1.0',
+            'Content-Type': 'text/plain; charset=utf-8',
+            'Content-Transfer-Encoding': '8bit',
+        }
+
+        for exception in self.all():
+             entry = polib.POEntry(
+                 msgid=exception.text, msgstr='',
+                 occurrences=[(exception.name, '')]
+             )
+             po.append(entry)
         po.save('./messages.po')
+        po.save(path)
 
     @property
     def exceptions(self):
         return self.data
 
+
 class TranslationDatabase(Database):
     def __init__(self, translations=None):
         super().__init__(translations)
 
-    
+
     def filter(self, exc_name=None, lang=None):
         def cond(val, exc_name, lang):
             result = True
@@ -72,74 +77,24 @@ class TranslationDatabase(Database):
                 result = result and val.language_code == lang
             return result
         return {trans for trans in self.translations if cond(trans, exc_name, lang)}
-     
+
     @property
     def translations(self):
         return self.data
-   
-class CPythonExceptionImporter(object):
-    """Extracts exceptions from the CPython sourcecode.
-    """
 
-    def __init__(self, path):
-        self.path = path
+    def import_from_po(self, path, language_code):
+        po = polib.pofile(path)
+        valid_entries = [e for e in po if not e.obsolete]
+        for entry in valid_entries:
+            self.add(TranslationObj(exc_name=entry.occurrences[0],
+                                    exc_text=entry.msgid,
+                                    language_code=language_code,
+                                    translation=entry.msgstr))
 
-    @staticmethod
-    def parse_c_code(text):
-        try:
-            text_error = ''.join(re.findall(r'"(.*?)"', text))
-            exc_type = re.search(r'PyExc_(\w+)', text).groups(1)[0]
-        except (AttributeError, ) as e:
-            raise ParseError('text: %s' % text)
-        return ExceptionObj(exc_type, text_error)
+if __name__ == "__main__":
+    import pprint
+    with open('./db.pickle', 'rb') as f:
+        db = ExceptionDatabase.load_from_pickle(f)
 
-    @staticmethod
-    def c_block_finder(text):
-        """Splits C code in blocks that contains one Exception
-        """
-        blocks = re.findall(r'(PyErr_SetString.*?);', text, re.DOTALL)
-        blocks.extend(re.findall('(PyErr_Format\(.*?PyExc.*?);', text, re.DOTALL))
-        blocks.extend(re.findall('(FORMAT_EXCEPTION\(.*?PyExc.*?);', text, re.DOTALL))
-
-        return set(blocks)
-
-    @staticmethod
-    def parse_c_file(filename):
-        exceptions = set()
-        with open(filename) as f:
-            text = f.read()
-        blocks = CPythonExceptionImporter.c_block_finder(text)
-        for block in blocks:
-            try:
-                exception_obj = CPythonExceptionImporter.parse_c_code(block)
-                exceptions.add(exception_obj)
-            except ParseError:
-                sys.stderr.write("Warning: Can't parse an exception on file %s\n" % filename)
-
-        return exceptions
-
-    def do_import(self):
-        exceptions = set()
-        filenames = glob.glob(os.path.join(self.path, 'Python', '*.c'))
-        filenames.extend(glob.glob(os.path.join(self.path, 'Objects', '*.c')))
-        filenames.extend(glob.glob(os.path.join(self.path, 'Modules', '*.c')))
-        filenames.remove(os.path.join(self.path, 'Python', 'errors.c'))
-        for filename in filenames:
-            exceptions.update(self.parse_c_file(filename))
-
-        exceptions.update(self.fixed_exceptions())
-        return exceptions
-
-    def fixed_exceptions(self):
-        return {
-            ExceptionObj("NameError",
-                         "name '%.200s' is not defined"),
-            ExceptionObj("NameError",
-                         "global name '%.200s' is not defined"),
-            ExceptionObj("NameError",
-                         "local variable '%.200s' referenced " \
-                         "before assignment"),
-            ExceptionObj("NameError",
-                         "free variable '%.200s' referenced " \
-                         "before assignment in enclosing scope"),
-        }
+    print("%d Exceptions" % len(db.all()))
+    db.pprint()

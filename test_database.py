@@ -1,6 +1,10 @@
+import os
 import unittest
-from database import ExceptionObj, TranslationObj, CPythonExceptionImporter, ExceptionDatabase, TranslationDatabase
 from collections import defaultdict
+
+from database import ExceptionObj, TranslationObj, ExceptionDatabase, \
+                      TranslationDatabase
+from cpython_importer import CPythonExceptionImporter
 
 
 class CBlockSearcherTest(unittest.TestCase):
@@ -135,6 +139,26 @@ class DatabaseTest(unittest.TestCase):
         with open('./db.pickle', 'rb') as f:
             db = ExceptionDatabase.load_from_pickle(f)
         self.assertTrue(len(db.all()) > 100)
+
+    def test_export_as_po(self):
+        db = ExceptionDatabase()
+        db.add(ExceptionObj("ValueError", '%s too long'))
+        db.add(ExceptionObj("NameError", '%s does not exists'))
+        db.add(ExceptionObj("NameError", '%s not exists'))
+        db.add(ExceptionObj("NameError", '%s does not exists'))
+        out_filename = './test_data/tmp.po'
+        data = db.export_as_po(out_filename)
+        with open(out_filename) as f:
+            data = f.read()
+        os.remove(out_filename)
+        self.assertTrue('#: NameError\nmsgid "%s does not exists"\nmsgstr ""' in data)
+
+    def test_import_from_po(self):
+        db = TranslationDatabase()
+        db.import_from_po('./test_data/some_es.po', 'es')
+        self.assertEqual(len(db.all()), 3)
+
+
 
 if __name__ == "__main__":
     unittest.main()
