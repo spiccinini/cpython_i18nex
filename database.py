@@ -49,10 +49,13 @@ class ExceptionDatabase(object):
 
     def export_as_po(self):
         po = polib.POFile()
-        entry = polib.POEntry(
-            msgid=u'Welcome', msgstr=u'Bienvenue',
-            occurrences=[('welcome.py', '12')]
-        )
+        for exception in exceptions:
+            entry = polib.POEntry(
+                msgid=exception.text, msgstr='',
+                occurrences=[(exception.name, '')]
+            )
+            po.append(entry)
+        po.save('./messages.po')
 
 
 class CPythonExceptionImporter(object):
