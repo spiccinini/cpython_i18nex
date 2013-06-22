@@ -10,9 +10,9 @@ class ParseError(Exception):
 
 ExceptionObj = namedtuple("ExceptionObj", ['name', 'text'])
 
+
 class CPythonExceptionImporter(object):
-    """
-    Extracts exceptions from the CPython sourcecode.
+    """Extracts exceptions from the CPython sourcecode.
     """
 
     def __init__(self, path):
@@ -29,6 +29,8 @@ class CPythonExceptionImporter(object):
 
     @staticmethod
     def c_block_finder(text):
+        """Splits C code in blocks that contains one Exception
+        """
         blocks = re.findall(r'(PyErr_SetString.*?);', text, re.DOTALL)
         blocks.extend(re.findall('(PyErr_Format\(.*?PyExc.*?);', text, re.DOTALL))
         blocks.extend(re.findall('(FORMAT_EXCEPTION\(.*?PyExc.*?);', text, re.DOTALL))
