@@ -1,5 +1,5 @@
 import unittest
-from database import ExceptionObj, CPythonExceptionImporter, ExceptionDatabase
+from database import ExceptionObj, TranslationObj, CPythonExceptionImporter, ExceptionDatabase, TranslationDatabase
 from collections import defaultdict
 
 
@@ -111,25 +111,25 @@ class DatabaseTest(unittest.TestCase):
 
     def test_add_exception(self):
         db = ExceptionDatabase()
-        db.add(ExceptionObj("ValueError", '%s too long', 'en'))
+        db.add(ExceptionObj("ValueError", '%s too long'))
         self.assertEqual(len(db.all()), 1)
         self.assertEqual(list(db.all())[0],
-                         ExceptionObj("ValueError", '%s too long', 'en'))
+                         ExceptionObj("ValueError", '%s too long'))
 
     def test_filter_by_name(self):
         db = ExceptionDatabase()
-        db.add(ExceptionObj("ValueError", '%s too long', 'en'))
-        db.add(ExceptionObj("ValueError", '%s es muy largo', 'es'))
+        db.add(ExceptionObj("ValueError", '%s too long'))
+        db.add(ExceptionObj("ValueError", '%s es muy largo'))
         self.assertEqual(len(db.filter(name="ValueError")), 2)
         self.assertEqual(len(db.filter(name="NameError")), 0)
 
     def test_filter_by_name_and_lang(self):
-        db = ExceptionDatabase()
-        db.add(ExceptionObj("ValueError", '%s too long', 'en'))
-        db.add(ExceptionObj("ValueError", '%s es muy largo', 'es'))
-        self.assertEqual(len(db.filter(name="ValueError", lang='es')), 1)
-        self.assertEqual(len(db.filter(name="ValueError", lang='en')), 1)
-        self.assertEqual(len(db.filter(name="NameError")), 0)
+        db = TranslationDatabase()
+        db.add(TranslationObj("ValueError", '%s too long', 'en', ''))
+        db.add(TranslationObj("ValueError", '%s es muy largo', 'es', ''))
+        self.assertEqual(len(db.filter(exc_name="ValueError", lang='es')), 1)
+        self.assertEqual(len(db.filter(exc_name="ValueError", lang='en')), 1)
+        self.assertEqual(len(db.filter(exc_name="NameError")), 0)
 
     def test_load_from_pickle(self):
         with open('./db.pickle', 'rb') as f:

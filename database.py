@@ -12,36 +12,37 @@ class ParseError(Exception):
     pass
 
 
-ExceptionObj = namedtuple("ExceptionObj", ['name', 'text', 'language_code'])
+ExceptionObj = namedtuple("ExceptionObj", ['name', 'text'])
+TranslationObj = namedtuple("ExceptionObj", ['exc_name', 'exc_text', 'language_code', 'translation'])
 
-
-class ExceptionDatabase(object):
-
-    def __init__(self, exceptions=None):
-        self.exceptions = exceptions if exceptions else set()
+class Database(object):
+    def __init__(self, data=None):
+        self.data = data if data else set()
 
     def all(self):
-        return self.exceptions
+        return self.data
 
-    def filter(self, name=None, lang=None):
-        def cond(val, name, lang):
-            result = True
-            if name is not None:
-                result = result and val.name == name
-            if lang is not None:
-                result = result and val.language_code == lang
-            return result
-        return {exc for exc in self.exceptions if cond(exc, name, lang)}
-
-    def add(self, exception):
-        self.exceptions.add(exception)
+    def add(self, item):
+        self.data.add(item)
 
     def dump(self, fobj):
-        pickle.dump(self.exceptions, fobj)
+        pickle.dump(self.data, fobj)
 
     @classmethod
     def load_from_pickle(cls, file_obj):
         return ExceptionDatabase(pickle.load(file_obj))
+
+class ExceptionDatabase(Database):
+    def __init__(self, exceptions=None):
+        super(ExceptionDatabase, self).__init__(exceptions)
+
+    def filter(self, name=None):
+        def cond(val, name):
+            result = True
+            if name is not None:
+                result = result and val.name == name
+            return result
+        return {exc for exc in self.exceptions if cond(exc, name)}
 
     def export_as_po(self):
         po = polib.POFile()
@@ -53,6 +54,29 @@ class ExceptionDatabase(object):
             po.append(entry)
         po.save('./messages.po')
 
+    @property
+    def exceptions(self):
+        return self.data
+
+class TranslationDatabase(Database):
+    def __init__(self, translations=None):
+        super().__init__(translations)
+
+    
+    def filter(self, exc_name=None, lang=None):
+        def cond(val, exc_name, lang):
+            result = True
+            if exc_name is not None:
+                result = result and val.exc_name == exc_name
+            if lang is not None:
+                result = result and val.language_code == lang
+            return result
+        return {trans for trans in self.translations if cond(trans, exc_name, lang)}
+     
+    @property
+    def translations(self):
+        return self.data
+   
 class CPythonExceptionImporter(object):
     """Extracts exceptions from the CPython sourcecode.
     """
@@ -67,7 +91,7 @@ class CPythonExceptionImporter(object):
             exc_type = re.search(r'PyExc_(\w+)', text).groups(1)[0]
         except (AttributeError, ) as e:
             raise ParseError('text: %s' % text)
-        return ExceptionObj(exc_type, text_error, 'en')
+        return ExceptionObj(exc_type, text_error)
 
     @staticmethod
     def c_block_finder(text):
@@ -109,13 +133,13 @@ class CPythonExceptionImporter(object):
     def fixed_exceptions(self):
         return {
             ExceptionObj("NameError",
-                         "name '%.200s' is not defined", "en"),
+                         "name '%.200s' is not defined"),
             ExceptionObj("NameError",
-                         "global name '%.200s' is not defined", "en"),
+                         "global name '%.200s' is not defined"),
             ExceptionObj("NameError",
                          "local variable '%.200s' referenced " \
-                         "before assignment", "en"),
+                         "before assignment"),
             ExceptionObj("NameError",
                          "free variable '%.200s' referenced " \
-                         "before assignment in enclosing scope", "en"),
+                         "before assignment in enclosing scope"),
         }
