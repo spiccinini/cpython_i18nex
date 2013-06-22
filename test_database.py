@@ -131,6 +131,10 @@ class DatabaseTest(unittest.TestCase):
         self.assertEqual(len(db.filter(name="ValueError", lang='en')), 1)
         self.assertEqual(len(db.filter(name="NameError")), 0)
 
+    def test_load_from_pickle(self):
+        with open('./db.pickle', 'rb') as f:
+            db = ExceptionDatabase.load_from_pickle(f)
+        self.assertTrue(len(db.all()) > 100)
 
 if __name__ == "__main__":
     unittest.main()

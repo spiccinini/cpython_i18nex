@@ -18,7 +18,7 @@ ExceptionObj = namedtuple("ExceptionObj", ['name', 'text', 'language_code'])
 class ExceptionDatabase(object):
 
     def __init__(self, exceptions=None):
-        self.exceptions = set()
+        self.exceptions = exceptions if exceptions else set()
 
     def all(self):
         return self.exceptions
@@ -32,10 +32,6 @@ class ExceptionDatabase(object):
                 result = result and val.language_code == lang
             return result
         return {exc for exc in self.exceptions if cond(exc, name, lang)}
-
-    def filter_by_name_and_lang(self, name, lang):
-        return {exc for exc in self.exceptions if \
-                 exc.name == name and exc.language_code == lang}
 
     def add(self, exception):
         self.exceptions.add(exception)
@@ -56,7 +52,6 @@ class ExceptionDatabase(object):
             )
             po.append(entry)
         po.save('./messages.po')
-
 
 class CPythonExceptionImporter(object):
     """Extracts exceptions from the CPython sourcecode.
