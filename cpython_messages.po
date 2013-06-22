@@ -1,0 +1,6963 @@
+# 
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: BufferError
+msgid "ndarray is not Fortran contiguous"
+msgstr ""
+
+#: TypeError
+msgid "getch requires 0 or 2 arguments"
+msgstr ""
+
+#: RuntimeError
+msgid ""
+"more argument specifiers than keyword list entries (remaining format:'%s')"
+msgstr ""
+
+#: TypeError
+msgid "non-string type in Str"
+msgstr ""
+
+#: ValueError
+msgid "index out of range"
+msgstr ""
+
+#: TypeError
+msgid "format requires a mapping"
+msgstr ""
+
+#: OSError
+msgid "port/proto not found"
+msgstr ""
+
+#: OverflowError
+msgid "can't convert negative value to size_t"
+msgstr ""
+
+#: ValueError
+msgid "Sign not allowed in string format specifier"
+msgstr ""
+
+#: SystemError
+msgid "mmaps don't support concatenation"
+msgstr ""
+
+#: MemoryError
+msgid "Stack overflow"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from If"
+msgstr ""
+
+#: ValueError
+msgid "negative buffer size in recvmsg()"
+msgstr ""
+
+#: TypeError
+msgid "%.200s() takes no keyword arguments"
+msgstr ""
+
+#: ValueError
+msgid "ioctl string arg too long"
+msgstr ""
+
+#: TypeError
+msgid "map size must be an integral value"
+msgstr ""
+
+#: TypeError
+msgid "memoryview: format argument must be a string"
+msgstr ""
+
+#: TypeError
+msgid "gdbm key must be bytes, not %.100s"
+msgstr ""
+
+#: TypeError
+msgid "can't compare offset-naive and offset-aware times"
+msgstr ""
+
+#: ValueError
+msgid "PyCapsule_SetPointer called with null pointer"
+msgstr ""
+
+#: AttributeError
+msgid "'%.100s' object has no attribute '%U'"
+msgstr ""
+
+#: MemoryError
+msgid "Not enough memory to allocate new values array"
+msgstr ""
+
+#: ValueError
+msgid "width too big"
+msgstr ""
+
+#: SystemError
+msgid "unexpected import name: %d"
+msgstr ""
+
+#: TypeError
+msgid "spawnvp() arg 2 must be a tuple or list"
+msgstr ""
+
+#: SystemError
+msgid "module filename missing"
+msgstr ""
+
+#: TypeError
+msgid "memoryview: %.200s object does not have the buffer interface"
+msgstr ""
+
+#: OverflowError
+msgid "BINUNICODE exceeds system's maximum size of %zd bytes"
+msgstr ""
+
+#: TypeError
+msgid "argument list must be a tuple"
+msgstr ""
+
+#: SystemError
+msgid "mmap: resizing not available--no mremap()"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Try"
+msgstr ""
+
+#: TypeError
+msgid "%s.__new__(): not enough arguments"
+msgstr ""
+
+#: OverflowError
+msgid "byte array too long to convert to int"
+msgstr ""
+
+#: BufferError
+msgid "cannot resize an array that is exporting buffers"
+msgstr ""
+
+#: ValueError
+msgid ".defaultaction not found"
+msgstr ""
+
+#: TypeError
+msgid "Interactive field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: TypeError
+msgid "cannot delete memory"
+msgstr ""
+
+#: OverflowError
+msgid "repeated string is too long"
+msgstr ""
+
+#: TypeError
+msgid "pickle.loads() takes exactly one positional argument (%zd given)"
+msgstr ""
+
+#: RuntimeError
+msgid "%s: '%s'"
+msgstr ""
+
+#: ValueError
+msgid "month out of range"
+msgstr ""
+
+#: KeyError
+msgid "getspnam(): name not found"
+msgstr ""
+
+#: TypeError
+msgid "%.200s() takes no arguments (%zd given)"
+msgstr ""
+
+#: BufferError
+msgid "memoryview: underlying buffer requires suboffsets"
+msgstr ""
+
+#: SystemError
+msgid "Negative size passed to PyUnicode_New"
+msgstr ""
+
+#: NameError
+msgid "__build_class__ not found"
+msgstr ""
+
+#: ValueError
+msgid "invalid ancillary data buffer length"
+msgstr ""
+
+#: RuntimeError
+msgid "Unrecognized action (%s) in warnings.filters:\\n %s"
+msgstr ""
+
+#: NotImplementedError
+msgid "multi-dimensional sub-views are not implemented"
+msgstr ""
+
+#: TypeError
+msgid "__name__ must be set to a string object"
+msgstr ""
+
+#: TypeError
+msgid "%.200s%.200s argument after * must be a sequence, not %.200s"
+msgstr ""
+
+#: TypeError
+msgid "character mapping must be in range(0x%x)"
+msgstr ""
+
+#: TypeError
+msgid "keyword arguments must be strings"
+msgstr ""
+
+#: SystemError
+msgid "new style getargs format but argument is not a tuple"
+msgstr ""
+
+#: IndexError
+msgid ""
+"pack expected %zd items for packing (got %zd)pack_into expected buffer "
+"argumentpack_into expected offset argumentpack_into expected %zd items for "
+"packing (got %zd)"
+msgstr ""
+
+#: ValueError
+msgid "field value is required for Subscript"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Expression"
+msgstr ""
+
+#: ValueError
+msgid "not a digit"
+msgstr ""
+
+#: ValueError
+msgid "Dict doesn't have the same number of keys as values"
+msgstr ""
+
+#: ValueError
+msgid "fill character is bigger than the string maximum character"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Str"
+msgstr ""
+
+#: ImportError
+msgid "WSAStartup failed: network not ready"
+msgstr ""
+
+#: TypeError
+msgid "module name must be a string"
+msgstr ""
+
+#: TypeError
+msgid "cannot fit '%.200s' into an index-sized integer"
+msgstr ""
+
+#: ValueError
+msgid "too many file descriptors in select()"
+msgstr ""
+
+#: ValueError
+msgid "can only set %s format to 'unknown' or the detected platform value"
+msgstr ""
+
+#: TypeError
+msgid "duplicate base class %U"
+msgstr ""
+
+#: ValueError
+msgid "negative shift count"
+msgstr ""
+
+#: SystemError
+msgid "binary op %d should not be possible"
+msgstr ""
+
+#: TypeError
+msgid "keys must be a string"
+msgstr ""
+
+#: TypeError
+msgid ""
+"%s() returned ERRexpect bytes or str of length 1, or int, got a str of "
+"length %zi"
+msgstr ""
+
+#: ValueError
+msgid "Compressor has been flushed"
+msgstr ""
+
+#: NotImplementedError
+msgid ""
+"can't find module "
+"%R%U%c__init__.py%U.pyfind_modulefind_loaderload_moduleget_dataget_codeget_sourceget_filenameis_packagearchiveprefix_fileszipimport.zipimporterrbcan't"
+" open Zip file: %Rcan't read Zip file: %Rcan't read Zip file: %Rnot a Zip "
+"file: %Rutf-8asciicp437bootstrap issue: python%i%i.zip contains non-ASCII "
+"filenames without the unicode flag"
+msgstr ""
+
+#: SyntaxError
+msgid "no binding for nonlocal '%U' found"
+msgstr ""
+
+#: IndexError
+msgid "tuple index out of range"
+msgstr ""
+
+#: ValueError
+msgid "unregistered extension code %ld"
+msgstr ""
+
+#: TypeError
+msgid "type %.100s doesn't define __trunc__ method"
+msgstr ""
+
+#: TypeError
+msgid "<descriptor>.__objclass__.__qualname__ is not a unicode object"
+msgstr ""
+
+#: ValueError
+msgid "cannot get length of fds_to_keep"
+msgstr ""
+
+#: ValueError
+msgid "int string too large to convert"
+msgstr ""
+
+#: TypeError
+msgid "%s.__new__(%s): %s is not a subtype of %s"
+msgstr ""
+
+#: SystemError
+msgid "mmaps don't support repeat operation"
+msgstr ""
+
+#: BufferError
+msgid "Buffer must be single dimension"
+msgstr ""
+
+#: OSError
+msgid "getsockaddrarg: bad family"
+msgstr ""
+
+#: TypeError
+msgid "'memo' attribute must be an PicklerMemoProxy objector dict, not %.200s"
+msgstr ""
+
+#: OSError
+msgid "sendmsg() argument 1 is too long"
+msgstr ""
+
+#: TypeError
+msgid "object() takes no parameters"
+msgstr ""
+
+#: ValueError
+msgid "field test is required for While"
+msgstr ""
+
+#: ValueError
+msgid "null byte in argument for int()"
+msgstr ""
+
+#: TypeError
+msgid "must have a sched_param object"
+msgstr ""
+
+#: ValueError
+msgid "-inf + inf in fsum"
+msgstr ""
+
+#: TypeError
+msgid "file must have a 'write' attribute"
+msgstr ""
+
+#: SystemError
+msgid "globals and locals cannot be NULL"
+msgstr ""
+
+#: IndexError
+msgid "mmap index out of range"
+msgstr ""
+
+#: ValueError
+msgid "PyBuffer_ToContiguous: len != view->len"
+msgstr ""
+
+#: OverflowError
+msgid "can't convert negative value to unsigned int"
+msgstr ""
+
+#: TypeError
+msgid "fourth argument should be bytes, not %.200s"
+msgstr ""
+
+#: OverflowError
+msgid "byte doesn't fit in chtype"
+msgstr ""
+
+#: ValueError
+msgid "Hardware address must be 8 bytes or less"
+msgstr ""
+
+#: TypeError
+msgid "buffer has negative size"
+msgstr ""
+
+#: ValueError
+msgid "buffer too small for requested bytes"
+msgstr ""
+
+#: TypeError
+msgid "%.200s%s got multiple values for keyword argument '%U'"
+msgstr ""
+
+#: SystemError
+msgid "Negative size passed to PyByteArray_FromStringAndSize"
+msgstr ""
+
+#: ValueError
+msgid "invalid \\\\x escape at position %d"
+msgstr ""
+
+#: ValueError
+msgid "%s: can't specify both dir_fd and fd"
+msgstr ""
+
+#: TypeError
+msgid "'%.200s' object is not callable"
+msgstr ""
+
+#: SystemError
+msgid "unhandled factor: %d"
+msgstr ""
+
+#: SystemError
+msgid "unexpected flow_stmt: %d"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from AugAssign"
+msgstr ""
+
+#: TypeError
+msgid "groups must be integers"
+msgstr ""
+
+#: ValueError
+msgid "seek out of range"
+msgstr ""
+
+#: ImportError
+msgid "can't find module %Rzipimportzipimport.ZipImportError"
+msgstr ""
+
+#: TypeError
+msgid "List field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: SyntaxError
+msgid "nonlocal declaration not allowed at module level"
+msgstr ""
+
+#: ValueError
+msgid "offset out of bounds"
+msgstr ""
+
+#: KeyError
+msgid "getpwnam(): name not found: %s"
+msgstr ""
+
+#: ValueError
+msgid "%U requires closure of length %zd, not %zd"
+msgstr ""
+
+#: SystemError
+msgid "'finally' pops bad exception"
+msgstr ""
+
+#: SystemError
+msgid "no symtable"
+msgstr ""
+
+#: TypeError
+msgid "ExceptHandler field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from ExceptHandler"
+msgstr ""
+
+#: ValueError
+msgid "flush not supported on this system"
+msgstr ""
+
+#: ValueError
+msgid "mmap closed or invalid"
+msgstr ""
+
+#: TypeError
+msgid "decoder must return a tuple (object,integer)"
+msgstr ""
+
+#: ValueError
+msgid "elements of shape must be integers >= 0"
+msgstr ""
+
+#: OSError
+msgid "handle cannot be retrieved"
+msgstr ""
+
+#: ValueError
+msgid "range() arg 3 must not be zero"
+msgstr ""
+
+#: ImportError
+msgid "WSAStartup failed: error code %d"
+msgstr ""
+
+#: RuntimeError
+msgid "_compat_pickle.IMPORT_MAPPING should be a dict, not %.200s"
+msgstr ""
+
+#: TypeError
+msgid "timeout argument must be an number or None, got %.200s"
+msgstr ""
+
+#: BufferError
+msgid "cannot change structure: %zd exported buffer%ss"
+msgstr ""
+
+#: OSError
+msgid "unsupported address family"
+msgstr ""
+
+#: KeyError
+msgid "getpwuid(): uid not found"
+msgstr ""
+
+#: TypeError
+msgid "f.read() returned not bytes but %.100s"
+msgstr ""
+
+#: ValueError
+msgid "can't use invalid socket value"
+msgstr ""
+
+#: ValueError
+msgid "items must return 2-tuples"
+msgstr ""
+
+#: RuntimeError
+msgid "lost sys.stdout"
+msgstr ""
+
+#: ValueError
+msgid "field attr is required for Attribute"
+msgstr ""
+
+#: OverflowError
+msgid "long is too large to format"
+msgstr ""
+
+#: OverflowError
+msgid "unsigned int is greater than maximum"
+msgstr ""
+
+#: OverflowError
+msgid "cannot serialize a string larger than 4 GiB"
+msgstr ""
+
+#: ValueError
+msgid "not a numeric character"
+msgstr ""
+
+#: ValueError
+msgid "I/O operation on closed kqueue fd"
+msgstr ""
+
+#: OverflowError
+msgid "replacement bytes are too long"
+msgstr ""
+
+#: TypeError
+msgid "args may not be deleted"
+msgstr ""
+
+#: RuntimeError
+msgid "unexpected NULL result from %s()CMSG_FIRSTHDRCMSG_NXTHDR"
+msgstr ""
+
+#: TypeError
+msgid "PyModule_AddObject() needs module as first arg"
+msgstr ""
+
+#: OverflowError
+msgid "Python int too large to convert to C size_t"
+msgstr ""
+
+#: TypeError
+msgid "bad \\ value"
+msgstr ""
+
+#: TypeError
+msgid "code object passed to exec() may not contain free variables"
+msgstr ""
+
+#: OverflowError
+msgid "padded string is too long"
+msgstr ""
+
+#: TypeError
+msgid "environment must be dictionary or None"
+msgstr ""
+
+#: AttributeError
+msgid "can't delete attributecan't set attribute"
+msgstr ""
+
+#: TypeError
+msgid "arg 4 (defaults) must be None or tuple"
+msgstr ""
+
+#: TypeError
+msgid "writerows() argument must be iterable"
+msgstr ""
+
+#: OSError
+msgid "unable to select on socket"
+msgstr ""
+
+#: ValueError
+msgid "slice step cannot be zero"
+msgstr ""
+
+#: ImportError
+msgid "Cannot re-init internal module %R"
+msgstr ""
+
+#: TypeError
+msgid "ndim = 0 cannot be used in conjunction with ND_PIL"
+msgstr ""
+
+#: ValueError
+msgid "compile() arg 3 must be 'exec', 'eval' or 'single'"
+msgstr ""
+
+#: SystemError
+msgid "Parent module %R not loaded, cannot perform relative import"
+msgstr ""
+
+#: TypeError
+msgid "expected some sort of slice, but got %R"
+msgstr ""
+
+#: TypeError
+msgid "tag may not be NULL"
+msgstr ""
+
+#: TypeError
+msgid "arguments field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from withitem"
+msgstr ""
+
+#: TypeError
+msgid "can't use a bytes pattern on a string-like object"
+msgstr ""
+
+#: ValueError
+msgid "size must be 0 or a positive value"
+msgstr ""
+
+#: ZeroDivisionError
+msgid "division by zero"
+msgstr ""
+
+#: ValueError
+msgid "field arg is required for arg"
+msgstr ""
+
+#: ValueError
+msgid "string too long"
+msgstr ""
+
+#: ImportError
+msgid "__import__ not found"
+msgstr ""
+
+#: RuntimeError
+msgid "Invalid format string ($ specified twice)"
+msgstr ""
+
+#: AssertionError
+msgid "PyDateTime_CAPI somehow initialized"
+msgstr ""
+
+#: TypeError
+msgid "arg 5 (closure) expected cell, found %s"
+msgstr ""
+
+#: ValueError
+msgid "bad marshal data (unnormalized long data)"
+msgstr ""
+
+#: RuntimeError
+msgid "super(): empty __class__ cell"
+msgstr ""
+
+#: ZeroDivisionError
+msgid "integer division or modulo by zero"
+msgstr ""
+
+#: NotImplementedError
+msgid "/dev/urandom (or equivalent) not found"
+msgstr ""
+
+#: OverflowError
+msgid "long too large to pickle"
+msgstr ""
+
+#: EOFError
+msgid "EOF read where not expected"
+msgstr ""
+
+#: ValueError
+msgid "Unknown format code '\\\\x%x' for object of type '%.200s'"
+msgstr ""
+
+#: ReferenceError
+msgid "weakly-referenced object no longer exists"
+msgstr ""
+
+#: IndexError
+msgid "child assignment index out of range"
+msgstr ""
+
+#: ValueError
+msgid "current limit exceeds maximum limit"
+msgstr ""
+
+#: SystemError
+msgid "unexpected unary operation %d on a constant"
+msgstr ""
+
+#: TypeError
+msgid "str file path expected under Windows, got %R"
+msgstr ""
+
+#: ValueError
+msgid "attempted relative import beyond top-level package"
+msgstr ""
+
+#: ValueError
+msgid ""
+"only 'strict' and 'surrogateescape' error handlers are supported, not '%s'"
+msgstr ""
+
+#: IndexError
+msgid "position %zd from error handler out of bounds"
+msgstr ""
+
+#: OverflowError
+msgid "complex exponentiation"
+msgstr ""
+
+#: TypeError
+msgid "* wants int"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from arg"
+msgstr ""
+
+#: ValueError
+msgid "invalid value for verify_mode"
+msgstr ""
+
+#: IndexError
+msgid "pop from empty bytearray"
+msgstr ""
+
+#: ValueError
+msgid "compresslevel must be between 1 and 9"
+msgstr ""
+
+#: OverflowError
+msgid "cannot add more blocks to the deque"
+msgstr ""
+
+#: ValueError
+msgid "negative count"
+msgstr ""
+
+#: TypeError
+msgid "wrapper %s doesn't take keyword arguments"
+msgstr ""
+
+#: TypeError
+msgid "getsockaddrarg: AF_INET6 address must be tuple, not %.500s"
+msgstr ""
+
+#: RuntimeError
+msgid "maximum recursion depth exceeded%s"
+msgstr ""
+
+#: TypeError
+msgid "__context__ may not be deleted"
+msgstr ""
+
+#: OSError
+msgid "getsockaddrlen: bad family"
+msgstr ""
+
+#: TypeError
+msgid "\\ must be a string"
+msgstr ""
+
+#: ValueError
+msgid "cannot hash writable memoryview object"
+msgstr ""
+
+#: ValueError
+msgid "Internal error - invalid parameters passed to libbzip2"
+msgstr ""
+
+#: TypeError
+msgid ""
+"field larger than field limit (%ld) represented by '%c' expected after '%c"
+"'new-line character seen in unquoted field - do you need to open the file in"
+" universal-newline mode?unexpected end of dataiterator should return "
+"strings, not %.200s (did you open the file in text mode?)line contains NULL "
+"byteCSV reader\\n\\nReader objects are responsible for reading and parsing "
+"tabular data\\nin CSV format.\\ndialectline_num_csv.readerargument 1 must be"
+" an iterator"
+msgstr ""
+
+#: TypeError
+msgid "Tuple or struct_time argument required"
+msgstr ""
+
+#: SystemError
+msgid "unknown opcode"
+msgstr ""
+
+#: SystemError
+msgid "wrong number of tokens for 'while' statement: %d"
+msgstr ""
+
+#: TypeError
+msgid "a float is required"
+msgstr ""
+
+#: TypeError
+msgid "%U() got multiple values for argument '%S'"
+msgstr ""
+
+#: TypeError
+msgid "event handling only supported for ElementTree.TreeBuilder targets"
+msgstr ""
+
+#: SystemError
+msgid "unknown comprehension type %d"
+msgstr ""
+
+#: MemoryError
+msgid "Out of memory while decompressing data"
+msgstr ""
+
+#: TypeError
+msgid "execve: environment must be a mapping object"
+msgstr ""
+
+#: ValueError
+msgid "size not valid: %zd bytes"
+msgstr ""
+
+#: ValueError
+msgid "invalid code page number"
+msgstr ""
+
+#: ValueError
+msgid "field left is required for Compare"
+msgstr ""
+
+#: TypeError
+msgid "command not callable"
+msgstr ""
+
+#: ValueError
+msgid "elements of %s must be integersshapestrides"
+msgstr ""
+
+#: TypeError
+msgid "intern must be a dictionary"
+msgstr ""
+
+#: TypeError
+msgid "state is not a dictionary"
+msgstr ""
+
+#: AttributeError
+msgid "type object '%.50s' has no attribute '%U'"
+msgstr ""
+
+#: TypeError
+msgid "insnstr requires 2 to 5 arguments"
+msgstr ""
+
+#: OverflowError
+msgid "unsigned int is less than minimum"
+msgstr ""
+
+#: ValueError
+msgid "Cannot specify both preset and filter chain"
+msgstr ""
+
+#: TypeError
+msgid "iter(v, w): v must be callable"
+msgstr ""
+
+#: ValueError
+msgid "maxlen must be non-negative"
+msgstr ""
+
+#: ValueError
+msgid "invalid buffer type"
+msgstr ""
+
+#: ValueError
+msgid ".filters item %zd isn't a 5-tuple"
+msgstr ""
+
+#: TypeError
+msgid "__kwdefaults__ must be set to a dict object"
+msgstr ""
+
+#: OverflowError
+msgid "Internal lock count overflowed"
+msgstr ""
+
+#: ValueError
+msgid "invalid hexadecimal floating-point string"
+msgstr ""
+
+#: SystemError
+msgid "NULL object passed to Py_BuildValue"
+msgstr ""
+
+#: ValueError
+msgid "%s too long for Windows"
+msgstr ""
+
+#: SystemError
+msgid "Cannot modify a string currently used"
+msgstr ""
+
+#: SystemError
+msgid "vars(): no locals!?"
+msgstr ""
+
+#: TypeError
+msgid "environment can only contain strings"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from alias"
+msgstr ""
+
+#: OSError
+msgid "getsockaddrarg: unknown Bluetooth protocol"
+msgstr ""
+
+#: ValueError
+msgid ""
+"Invalid compression preset: %d|OOO&O&O&O&O&O&O&O&Invalid filter specifier "
+"for LZMA filter"
+msgstr ""
+
+#: ValueError
+msgid "'=' alignment not allowed in string format specifier"
+msgstr ""
+
+#: TypeError
+msgid ""
+"shape is a required argument when constructing from list, tuple or scalar"
+msgstr ""
+
+#: OverflowError
+msgid "getsockaddrarg: port must be 0-65535."
+msgstr ""
+
+#: OverflowError
+msgid "int too big to convert"
+msgstr ""
+
+#: TypeError
+msgid "delimiter must be set"
+msgstr ""
+
+#: ValueError
+msgid "maxevents must be greater than 0, got %d"
+msgstr ""
+
+#: IndexError
+msgid "range object index out of range"
+msgstr ""
+
+#: TypeError
+msgid "decoder failed to return unicode"
+msgstr ""
+
+#: IOError
+msgid "Unrecognized error from libbzip2: %d"
+msgstr ""
+
+#: ValueError
+msgid "Suite is not valid in the CPython compiler"
+msgstr ""
+
+#: TypeError
+msgid "NULL object in marshal data for tuple"
+msgstr ""
+
+#: TypeError
+msgid ""
+"exceptions must be classes or instances deriving from BaseException, not %s"
+msgstr ""
+
+#: SystemError
+msgid "unexpected node in varargslist: %d @ %d"
+msgstr ""
+
+#: OverflowError
+msgid "Size does not fit in an unsigned int"
+msgstr ""
+
+#: ValueError
+msgid "code: kwonlyargcount must not be negative"
+msgstr ""
+
+#: TypeError
+msgid "weak object has gone away"
+msgstr ""
+
+#: RuntimeError
+msgid "signal %i cannot be registered, use enable() instead"
+msgstr ""
+
+#: ValueError
+msgid "memoryview: invalid value for format '%s'"
+msgstr ""
+
+#: ValueError
+msgid "__setformat__() argument 1 must be 'double' or 'float'"
+msgstr ""
+
+#: TypeError
+msgid "multiple bases have instance lay-out conflict"
+msgstr ""
+
+#: TypeError
+msgid "can't compare offset-naive and offset-aware datetimes"
+msgstr ""
+
+#: ValueError
+msgid "invalid generation"
+msgstr ""
+
+#: RuntimeError
+msgid "_compat_pickle.IMPORT_MAPPING values should be strings, not %.200s"
+msgstr ""
+
+#: TypeError
+msgid "__dict__ slot disallowed: we already got one"
+msgstr ""
+
+#: ValueError
+msgid "not a decimal"
+msgstr ""
+
+#: SyntaxError
+msgid "name '%U' is parameter and nonlocal"
+msgstr ""
+
+#: BufferError
+msgid "structure of re-exporting object is immutable"
+msgstr ""
+
+#: TypeError
+msgid "'in <string>' requires string as left operand, not %s"
+msgstr ""
+
+#: BufferError
+msgid "cannot close exported pointers exist"
+msgstr ""
+
+#: ValueError
+msgid "field value is required for Expr"
+msgstr ""
+
+#: OSError
+msgid "getsockaddrlen: unknown BT protocol"
+msgstr ""
+
+#: TypeError
+msgid "pair_number requires 1 argument"
+msgstr ""
+
+#: TypeError
+msgid "Can't compare %.100s and %.100s"
+msgstr ""
+
+#: TypeError
+msgid "map() must have at least two arguments."
+msgstr ""
+
+#: ValueError
+msgid "attempt to assign sequence of size %zd to extended slice of size %zd"
+msgstr ""
+
+#: SystemError
+msgid "unknown unaryop found"
+msgstr ""
+
+#: TypeError
+msgid "__code__ must be set to a code object"
+msgstr ""
+
+#: TypeError
+msgid "replace requires one argument"
+msgstr ""
+
+#: ValueError
+msgid "field test is required for If"
+msgstr ""
+
+#: TypeError
+msgid ""
+"pack_into requires a buffer of at least %zd bytesS.__sizeof__() -> size of S"
+" in memory, in bytespackpack_intounpackunpack_from__sizeof__Struct(fmt) --> "
+"compiled struct object\\n\\nReturn a new Struct object which writes and "
+"reads binary data according to\\nthe format string fmt.  See help(struct) "
+"for more on format strings.formatstruct format stringsizestruct size in "
+"bytesStructClear the internal cache.missing format argument"
+msgstr ""
+
+#: OverflowError
+msgid "no printf formatter to display the socket descriptor in decimal"
+msgstr ""
+
+#: ValueError
+msgid ""
+"can't get read buffer before GetOverlappedResult() signals the operation "
+"completed"
+msgstr ""
+
+#: ValueError
+msgid "memoryview: hashing is restricted to formats 'B', 'b' or 'c'"
+msgstr ""
+
+#: OverflowError
+msgid "replace string is too long"
+msgstr ""
+
+#: TypeError
+msgid "tcsetattr, arg 3: must be 7 element list"
+msgstr ""
+
+#: MemoryError
+msgid "Can't allocate memory to compress data"
+msgstr ""
+
+#: TypeError
+msgid "DictComp field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: IndexError
+msgid "index out of range"
+msgstr ""
+
+#: TypeError
+msgid "%s%s: pathcan't specify None for %s argument"
+msgstr ""
+
+#: RuntimeError
+msgid "Cannot delete attribute"
+msgstr ""
+
+#: TypeError
+msgid "complex() can't take second arg if first is a string"
+msgstr ""
+
+#: IOError
+msgid "Unknown I/O error"
+msgstr ""
+
+#: TypeError
+msgid "bkgd requires 1 or 2 arguments"
+msgstr ""
+
+#: TypeError
+msgid ""
+"memoryview_from_buffer(): ndarray must be original exporter or consumer from"
+" ndarray/original exporter"
+msgstr ""
+
+#: TypeError
+msgid "slice indices must be integers or None or have an __index__ method"
+msgstr ""
+
+#: OverflowError
+msgid ""
+"Error %d %sError %d %s: %.200scompressobj(level=-1, method=DEFLATED, "
+"wbits=15, memlevel=8,\\n            strategy=Z_DEFAULT_STRATEGY[, zdict])\\n"
+" -- Return a compressor object.\\n\\nlevel is the compression level (an "
+"integer in the range 0-9; default is 6).\\nHigher compression levels are "
+"slower, but produce smaller results.\\n\\nmethod is the compression "
+"algorithm. If given, this must be DEFLATED.\\n\\nwbits is the base two "
+"logarithm of the window size (range: 8..15).\\n\\nmemlevel controls the "
+"amount of memory used for internal compression state.\\nValid values range "
+"from 1 to 9. Higher values result in higher memory usage,\\nfaster "
+"compression, and smaller output.\\n\\nstrategy is used to tune the "
+"compression algorithm. Possible values are\\nZ_DEFAULT_STRATEGY, Z_FILTERED,"
+" and Z_HUFFMAN_ONLY.\\n\\nzdict is the predefined compression dictionary - a"
+" sequence of bytes\\ncontaining subsequences that are likely to occur in the"
+" input data.decompressobj([wbits[, zdict]]) -- Return a decompressor "
+"object.\\n\\nOptional arg wbits is the window buffer size.\\n\\nOptional arg"
+" zdict is the predefined compression dictionary. This must be\\nthe same "
+"dictionary as used by the compressor that produced the input "
+"data.compress(string[, level]) -- Returned compressed string.\\n\\nOptional "
+"arg level is the compression level, in 0-9.y*|i:compressSize does not fit in"
+" an unsigned int"
+msgstr ""
+
+#: NameError
+msgid "name '%.200s' is not defined"
+msgstr ""
+
+#: ValueError
+msgid "bad marshal data (digit out of range in long)"
+msgstr ""
+
+#: TypeError
+msgid "integer conversion failed"
+msgstr ""
+
+#: TypeError
+msgid "nb_int should return int object"
+msgstr ""
+
+#: TypeError
+msgid "dict items iterator must return 2-tuples"
+msgstr ""
+
+#: TypeError
+msgid "handler must be callable"
+msgstr ""
+
+#: RuntimeError
+msgid "lost sys.displayhook"
+msgstr ""
+
+#: ValueError
+msgid "Invalid filter chain for FORMAT_ALONE - must be a single LZMA1 filter"
+msgstr ""
+
+#: SystemError
+msgid "impossible module node"
+msgstr ""
+
+#: TypeError
+msgid "pickle.dump() takes at most 3 positional argument (%zd given)"
+msgstr ""
+
+#: TypeError
+msgid ""
+"__weakref__ slot disallowed: either we already got one, or __itemsize__ != 0"
+msgstr ""
+
+#: RuntimeError
+msgid "_compat_pickle.REVERSE_NAME_MAPPING should be a dict, not %.200s"
+msgstr ""
+
+#: TypeError
+msgid "Type %.100s doesn't define __sizeof__"
+msgstr ""
+
+#: TypeError
+msgid "attribute deletion is not supported"
+msgstr ""
+
+#: TypeError
+msgid "range indices must be integers or slices, not %.200s"
+msgstr ""
+
+#: TypeError
+msgid "warnings.showwarning() must be set to a callable"
+msgstr ""
+
+#: TypeError
+msgid "an exception instance is required"
+msgstr ""
+
+#: TypeError
+msgid "exception attribute object must be bytes"
+msgstr ""
+
+#: ValueError
+msgid "unknown event '%s'"
+msgstr ""
+
+#: TypeError
+msgid "buffer size mismatch"
+msgstr ""
+
+#: TypeError
+msgid "character mapping must be in range(256)"
+msgstr ""
+
+#: TypeError
+msgid "%s.__new__(X): X is not a type object (%s)"
+msgstr ""
+
+#: AttributeError
+msgid "attribute '%V' of '%.100s' objects is not writable?"
+msgstr ""
+
+#: TypeError
+msgid "cafile should be a valid filesystem path"
+msgstr ""
+
+#: TypeError
+msgid "arg 5 (closure) must be None or tuple"
+msgstr ""
+
+#: ValueError
+msgid "PyCapsule_New called with null pointer"
+msgstr ""
+
+#: TypeError
+msgid "sendto() takes 2 or 3 arguments (%d given)"
+msgstr ""
+
+#: TypeError
+msgid "decoding str is not supported"
+msgstr ""
+
+#: AttributeError
+msgid ""
+"fourth element of the tuple returned by __reduce__ must be an iterator, not "
+"%sfifth element of the tuple returned by __reduce__ must be an iterator, not"
+" %s__newobj____name__"
+msgstr ""
+
+#: SystemError
+msgid "param invalid for local variable"
+msgstr ""
+
+#: RuntimeError
+msgid "Invalid format string ($ before |)"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from BinOp"
+msgstr ""
+
+#: TypeError
+msgid "quotechar must be set if quoting enabled"
+msgstr ""
+
+#: TypeError
+msgid "configuration names must be strings or integers"
+msgstr ""
+
+#: TypeError
+msgid "descriptor '%V' requires a subtype of '%.100s' but received '%.100s?"
+msgstr ""
+
+#: TypeError
+msgid "encoding or errors without sequence argument"
+msgstr ""
+
+#: ValueError
+msgid "mmap length is greater than file size"
+msgstr ""
+
+#: RuntimeError
+msgid "Internal error - Invalid sequence of commands sent to libbzip2"
+msgstr ""
+
+#: TypeError
+msgid "int() can't convert non-string with explicit base"
+msgstr ""
+
+#: OverflowError
+msgid "unsigned short is greater than maximum"
+msgstr ""
+
+#: TypeError
+msgid "expected some sort of expr_context, but got %R"
+msgstr ""
+
+#: TypeError
+msgid "Suite field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: OverflowError
+msgid "too many digits in integer"
+msgstr ""
+
+#: TypeError
+msgid "%.200s() takes exactly one argument (%d given)"
+msgstr ""
+
+#: MemoryError
+msgid "Unable to allocate lock"
+msgstr ""
+
+#: TypeError
+msgid "can't set attributes of built-in/extension type '%s'"
+msgstr ""
+
+#: ValueError
+msgid "cannot hash writable ndarray object"
+msgstr ""
+
+#: TypeError
+msgid "memo key must be integers"
+msgstr ""
+
+#: SystemError
+msgid "no locals found when storing %R"
+msgstr ""
+
+#: DeprecationWarning
+msgid ""
+"character U+%x is above the range (U+0000-U+FFFF) allowed by Tclsglobalcall "
+"is deprecated and will be removed in 3.4"
+msgstr ""
+
+#: SystemError
+msgid "no locals when loading %R"
+msgstr ""
+
+#: OverflowError
+msgid "CMSG_LEN() argument out of range"
+msgstr ""
+
+#: TypeError
+msgid ""
+"coercing to str: need bytes, bytearray or buffer-like object, %.80s found"
+msgstr ""
+
+#: BufferError
+msgid "ndarray: cannot cast to unsigned bytes if the format flag is present"
+msgstr ""
+
+#: ValueError
+msgid "int() arg 2 must be >= 2 and <= 36"
+msgstr ""
+
+#: MemoryError
+msgid "not enough memory for output buffer"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Expr"
+msgstr ""
+
+#: OverflowError
+msgid "precision too large"
+msgstr ""
+
+#: TypeError
+msgid "sequence type expected, got '%s'"
+msgstr ""
+
+#: TypeError
+msgid "mmap indices must be integer"
+msgstr ""
+
+#: SystemError
+msgid "Couldn't get thread-state dictionary"
+msgstr ""
+
+#: TypeError
+msgid "descriptor '%V' for '%s' objects doesn't apply to '%s' object?"
+msgstr ""
+
+#: ValueError
+msgid "seconds out of range"
+msgstr ""
+
+#: RuntimeError
+msgid "invalid SRE code"
+msgstr ""
+
+#: ValueError
+msgid "field args is required for FunctionDef"
+msgstr ""
+
+#: ValueError
+msgid "mismatch between initializer element and format string"
+msgstr ""
+
+#: TypeError
+msgid "zdict argument must support the buffer protocol"
+msgstr ""
+
+#: TypeError
+msgid "memoryview_from_buffer: format is limited to %d characters"
+msgstr ""
+
+#: TypeError
+msgid "Don't know how to unpickle \\ as an Element"
+msgstr ""
+
+#: OverflowError
+msgid "cannot add more objects to list"
+msgstr ""
+
+#: TypeError
+msgid "pow() 2nd argument cannot be negative when 3rd argument specified"
+msgstr ""
+
+#: SystemError
+msgid "param invalid in attribute expression"
+msgstr ""
+
+#: NameError
+msgid "local variable '%.200s' referenced before assignment"
+msgstr ""
+
+#: OSError
+msgid "non-zero exit code!"
+msgstr ""
+
+#: ValueError
+msgid "Zero padding is not allowed in complex format specifier"
+msgstr ""
+
+#: ValueError
+msgid ""
+"memoryview: destination format must be a native single character format "
+"prefixed with an optional '@'"
+msgstr ""
+
+#: ValueError
+msgid "negative sizehint"
+msgstr ""
+
+#: TypeError
+msgid "ord() expected string of length 1, but %.200s found"
+msgstr ""
+
+#: ValueError
+msgid ""
+"parse_tuple_and_keywords: could not convert keywords[%zd] to narrow string"
+msgstr ""
+
+#: TypeError
+msgid "Expected int as r"
+msgstr ""
+
+#: ValueError
+msgid "switch interval must be strictly positive"
+msgstr ""
+
+#: TypeError
+msgid "complex() argument must be a string or a number"
+msgstr ""
+
+#: ValueError
+msgid "History index cannot be negative"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from stmt"
+msgstr ""
+
+#: ValueError
+msgid "%s: src and dst must be the same type"
+msgstr ""
+
+#: SystemError
+msgid "libbzip2 was not compiled correctly"
+msgstr ""
+
+#: TypeError
+msgid "state vector must be a tuple"
+msgstr ""
+
+#: OverflowError
+msgid "private identifier too large to be mangled"
+msgstr ""
+
+#: ValueError
+msgid "Index out of range"
+msgstr ""
+
+#: TypeError
+msgid "cannot deepcopy this pattern object"
+msgstr ""
+
+#: AttributeError
+msgid "'%.50s' object has no attribute '%U'"
+msgstr ""
+
+#: ValueError
+msgid "Length of eventlist must be 0 or positive, got %d"
+msgstr ""
+
+#: AttributeError
+msgid "__abstractmethods__"
+msgstr ""
+
+#: ValueError
+msgid "state vector is the wrong size"
+msgstr ""
+
+#: TypeError
+msgid "AST bytes must be of type bytes"
+msgstr ""
+
+#: TypeError
+msgid "%s expected %s%zd arguments, got %zdat least "
+msgstr ""
+
+#: ValueError
+msgid "no such name"
+msgstr ""
+
+#: TypeError
+msgid "%s does not take keyword arguments"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from GeneratorExp"
+msgstr ""
+
+#: SystemError
+msgid "module kind %d should not be possible"
+msgstr ""
+
+#: ImportError
+msgid "PyCapsule_Import could not import module \\"
+msgstr ""
+
+#: TypeError
+msgid "execv() arg 2 must be a tuple or list"
+msgstr ""
+
+#: ValueError
+msgid "timeout value must be strictly positive"
+msgstr ""
+
+#: ValueError
+msgid "Try has orelse but no except handlers"
+msgstr ""
+
+#: TypeError
+msgid "non-numeric type in Num"
+msgstr ""
+
+#: TypeError
+msgid "comprehension field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: ValueError
+msgid "field elt is required for SetComp"
+msgstr ""
+
+#: SyntaxError
+msgid "import * is not allowed in function '%U' because it %s"
+msgstr ""
+
+#: TypeError
+msgid "sequence item %zd: expected str instance, %.80s found"
+msgstr ""
+
+#: TypeError
+msgid "startswith first arg must be bytes or a tuple of bytes, not %s"
+msgstr ""
+
+#: ValueError
+msgid "deflateSetDictionary()"
+msgstr ""
+
+#: ValueError
+msgid "generator already executing"
+msgstr ""
+
+#: RuntimeError
+msgid "dictionary changed size during iteration"
+msgstr ""
+
+#: TypeError
+msgid "Call field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: TypeError
+msgid "can only extend array with array (not \\)"
+msgstr ""
+
+#: ValueError
+msgid "length must be greater than zero"
+msgstr ""
+
+#: BufferError
+msgid "Existing exports of data: object cannot be re-sized"
+msgstr ""
+
+#: TypeError
+msgid "spawnv() arg 2 must contain only strings"
+msgstr ""
+
+#: TypeError
+msgid "can't use a string pattern on a bytes-like object"
+msgstr ""
+
+#: OSError
+msgid "ancillary data item too large"
+msgstr ""
+
+#: OverflowError
+msgid "float too large to pack with f format"
+msgstr ""
+
+#: TypeError
+msgid "sendfile() trailers must be a sequence or None"
+msgstr ""
+
+#: IOError
+msgid ""
+"failed to write all pollfds. Please, report at http://bugs.python.org/. Data"
+" to report: Size tried: %d, actual size written: %d."
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Bytes"
+msgstr ""
+
+#: ValueError
+msgid "Sign not allowed with integer format specifier 'c'"
+msgstr ""
+
+#: ValueError
+msgid "data out of range"
+msgstr ""
+
+#: ValueError
+msgid "invalid combination of buffer, shape and strides"
+msgstr ""
+
+#: TypeError
+msgid "descriptor '%V' requires a type but received a '%.100s'?"
+msgstr ""
+
+#: ValueError
+msgid "flush values out of range"
+msgstr ""
+
+#: KeyError
+msgid "pop from an empty set"
+msgstr ""
+
+#: TypeError
+msgid "can only assign tuple to %s.__bases__, not %s"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from List"
+msgstr ""
+
+#: TypeError
+msgid "expected some sort of excepthandler, but got %R"
+msgstr ""
+
+#: TypeError
+msgid "NotImplementedType takes no arguments"
+msgstr ""
+
+#: OSError
+msgid "getsockaddrarg: unsupported PF_SYSTEM protocol"
+msgstr ""
+
+#: AttributeError
+msgid "attribute '%V' of '%.100s' objects is not readable?"
+msgstr ""
+
+#: TypeError
+msgid "NULL object in marshal data for object"
+msgstr ""
+
+#: TypeError
+msgid "buffer_size must be an integer"
+msgstr ""
+
+#: TypeError
+msgid "%s assignment: '%s' object layout differs from '%s'"
+msgstr ""
+
+#: TypeError
+msgid "invalid event tuple"
+msgstr ""
+
+#: TypeError
+msgid "Try field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: OverflowError
+msgid "signed short integer is less than minimum"
+msgstr ""
+
+#: TypeError
+msgid "can't set %s.%s"
+msgstr ""
+
+#: ValueError
+msgid "lo must be non-negative"
+msgstr ""
+
+#: SystemError
+msgid "unknown slice node"
+msgstr ""
+
+#: TypeError
+msgid "%s assignment: '%s' deallocator differs from '%s'"
+msgstr ""
+
+#: ValueError
+msgid "line %d comes before the current code block"
+msgstr ""
+
+#: TypeError
+msgid "PyModule_AddObject() needs non-NULL value"
+msgstr ""
+
+#: OverflowError
+msgid "unsigned byte integer is greater than maximum"
+msgstr ""
+
+#: TypeError
+msgid "__hash__ method should return an integer"
+msgstr ""
+
+#: TypeError
+msgid "reduce() of empty sequence with no initial value"
+msgstr ""
+
+#: SystemError
+msgid "module '%s' has no __dict__"
+msgstr ""
+
+#: SystemError
+msgid "null file for PyFile_WriteString"
+msgstr ""
+
+#: TypeError
+msgid "separator: expected str instance, %.80s found"
+msgstr ""
+
+#: TypeError
+msgid "cannot convert dictionary update sequence element #%zd to a sequence"
+msgstr ""
+
+#: ValueError
+msgid "factorial() not defined for negative values"
+msgstr ""
+
+#: IndexError
+msgid "list assignment index out of range"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from YieldFrom"
+msgstr ""
+
+#: TypeError
+msgid "keyfile should be a valid filesystem path"
+msgstr ""
+
+#: EOFError
+msgid "EOF read where object expected"
+msgstr ""
+
+#: TypeError
+msgid "heap argument must be a list"
+msgstr ""
+
+#: TypeError
+msgid "%.200s%.200s argument after ** must be a mapping, not %.200s"
+msgstr ""
+
+#: SystemError
+msgid "inplace binary op %d should not be possible"
+msgstr ""
+
+#: TypeError
+msgid "dialect name must be a string"
+msgstr ""
+
+#: TypeError
+msgid "compiled module %R is not a code object"
+msgstr ""
+
+#: OSError
+msgid "sending multiple control messages is not supported on this system"
+msgstr ""
+
+#: ValueError
+msgid "fromutc: dt.tzinfo is not self"
+msgstr ""
+
+#: ValueError
+msgid "factorial() only accepts integral values"
+msgstr ""
+
+#: TypeError
+msgid "second argument must be a string"
+msgstr ""
+
+#: TypeError
+msgid "a number is required"
+msgstr ""
+
+#: ValueError
+msgid "unrecognized lockf argument"
+msgstr ""
+
+#: ValueError
+msgid "namespace_separator must be at most one character, omitted, or None"
+msgstr ""
+
+#: TypeError
+msgid "ListComp field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: TypeError
+msgid "'%.100s' object has no attributes (%s .%U)delassign to"
+msgstr ""
+
+#: TypeError
+msgid "type.__init__() takes no keyword arguments"
+msgstr ""
+
+#: SystemError
+msgid "unrecognized parse tree node type"
+msgstr ""
+
+#: TypeError
+msgid "Compare field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: UnboundLocalError
+msgid ""
+msgstr ""
+
+#: TypeError
+msgid "getsockaddrarg: expected str or tuple of two ints"
+msgstr ""
+
+#: TypeError
+msgid "FunctionDef field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: OverflowError
+msgid "Python int too large to convert to C ssize_t"
+msgstr ""
+
+#: SystemError
+msgid "non-tuple default args"
+msgstr ""
+
+#: ValueError
+msgid "Alternate form (#) not allowed in string format specifier"
+msgstr ""
+
+#: ValueError
+msgid "field value is required for Starred"
+msgstr ""
+
+#: TypeError
+msgid "descriptor '%V' for type '%s' needs a type, not a '%s' as arg 2?"
+msgstr ""
+
+#: ValueError
+msgid "get_pointer(): ndim > %d"
+msgstr ""
+
+#: TypeError
+msgid "%c requires int or char"
+msgstr ""
+
+#: ValueError
+msgid "byteorder must be either 'little' or 'big'"
+msgstr ""
+
+#: TypeError
+msgid "exception cause must be None or derive from BaseException"
+msgstr ""
+
+#: TypeError
+msgid "cafile and capath cannot be both omitted"
+msgstr ""
+
+#: TypeError
+msgid "Import field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: ValueError
+msgid "code: argcount must not be negative"
+msgstr ""
+
+#: ValueError
+msgid "unrecognized flock argument"
+msgstr ""
+
+#: TypeError
+msgid "non-empty format string passed to object.__format__"
+msgstr ""
+
+#: TypeError
+msgid "hasattr(): attribute name must be string"
+msgstr ""
+
+#: ValueError
+msgid "bad marshal data (unknown type code)"
+msgstr ""
+
+#: ValueError
+msgid "complex modulo"
+msgstr ""
+
+#: TypeError
+msgid "bytearray indices must be integers"
+msgstr ""
+
+#: TypeError
+msgid "type 'partial' takes at least one argument"
+msgstr ""
+
+#: ValueError
+msgid "field name is required for FunctionDef"
+msgstr ""
+
+#: LookupError
+msgid "unknown error handler name '%.400s'"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Call"
+msgstr ""
+
+#: AttributeError
+msgid "object"
+msgstr ""
+
+#: TypeError
+msgid "object.readline() returned non-string"
+msgstr ""
+
+#: TypeError
+msgid "can't convert complex to int"
+msgstr ""
+
+#: OverflowError
+msgid "signed char is greater than maximum"
+msgstr ""
+
+#: SystemError
+msgid "NULL result without error in PyObject_Call"
+msgstr ""
+
+#: OSError
+msgid "Load averages are unobtainable"
+msgstr ""
+
+#: OSError
+msgid "getsockaddrarg: wrong format"
+msgstr ""
+
+#: TypeError
+msgid "memoryview: product(shape) * itemsize != buffer size"
+msgstr ""
+
+#: RuntimeError
+msgid "maximum recursion depth exceeded during compilation"
+msgstr ""
+
+#: TypeError
+msgid "writev() arg 2 must be a sequence"
+msgstr ""
+
+#: ValueError
+msgid "Invalid arguments"
+msgstr ""
+
+#: OverflowError
+msgid "cannot convert float infinity to integer"
+msgstr ""
+
+#: OverflowError
+msgid "repeated bytes are too long"
+msgstr ""
+
+#: ZeroDivisionError
+msgid "float division by zero"
+msgstr ""
+
+#: AttributeError
+msgid "unreadable attribute"
+msgstr ""
+
+#: RuntimeError
+msgid "maximum recursion limit exceeded"
+msgstr ""
+
+#: ValueError
+msgid "unmarshallable objectobject too deeply nested to marshal"
+msgstr ""
+
+#: ValueError
+msgid "Cannot specify filters except with FORMAT_RAW"
+msgstr ""
+
+#: RuntimeError
+msgid "remove_lop: can't find Panel Object"
+msgstr ""
+
+#: ValueError
+msgid "too many groups"
+msgstr ""
+
+#: SystemError
+msgid "unhandled flow statement"
+msgstr ""
+
+#: ValueError
+msgid "Invalid format string"
+msgstr ""
+
+#: ValueError
+msgid "field key is required for DictComp"
+msgstr ""
+
+#: ValueError
+msgid "field target is required for AugAssign"
+msgstr ""
+
+#: SystemError
+msgid "Negative size passed to _PyUnicode_New"
+msgstr ""
+
+#: ValueError
+msgid "field value is required for Assign"
+msgstr ""
+
+#: TypeError
+msgid "For field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: ValueError
+msgid "bad marshal data (unicode size out of range)"
+msgstr ""
+
+#: OSError
+msgid "sockaddr resolved to multiple addresses"
+msgstr ""
+
+#: ValueError
+msgid "invalid length of packed IP address string"
+msgstr ""
+
+#: RuntimeError
+msgid "could not allocate locks for faulthandler"
+msgstr ""
+
+#: TypeError
+msgid "instr requires 0 or 3 arguments"
+msgstr ""
+
+#: ValueError
+msgid "hour must be in 0..23"
+msgstr ""
+
+#: TypeError
+msgid "descriptor '%V' of '%.100s' object needs an argument?"
+msgstr ""
+
+#: SystemError
+msgid "invalid node %d for PyAST_FromNode"
+msgstr ""
+
+#: RuntimeError
+msgid "super(): no arguments"
+msgstr ""
+
+#: RuntimeError
+msgid "panel_above: can't find Panel Object"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Starred"
+msgstr ""
+
+#: RuntimeError
+msgid "_compat_pickle.NAME_MAPPING should be a dict, not %.200s"
+msgstr ""
+
+#: TypeError
+msgid "expected an iterator of ints, but iterator yielded %R"
+msgstr ""
+
+#: IndexError
+msgid "pop index out of range"
+msgstr ""
+
+#: TypeError
+msgid "NULL object in marshal data for set"
+msgstr ""
+
+#: SystemError
+msgid "popped block is not an except handler"
+msgstr ""
+
+#: TypeError
+msgid "qiflush requires 0 or 1 arguments"
+msgstr ""
+
+#: ValueError
+msgid "initializer list or tuple must not be empty"
+msgstr ""
+
+#: ValueError
+msgid "mmap invalid access parameter."
+msgstr ""
+
+#: ValueError
+msgid "select.kqueue doesn't accept arguments"
+msgstr ""
+
+#: ValueError
+msgid "Circular reference detected"
+msgstr ""
+
+#: ValueError
+msgid "end is out of bounds"
+msgstr ""
+
+#: ValueError
+msgid "the environment variable is longer than %u characters"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Interactive"
+msgstr ""
+
+#: TypeError
+msgid ""
+"'memo' attribute must be an UnpicklerMemoProxy objector dict, not %.200s"
+msgstr ""
+
+#: SystemError
+msgid "invalid widening attempt"
+msgstr ""
+
+#: ImportError
+msgid "WSAStartup failed: requested version not supported"
+msgstr ""
+
+#: ValueError
+msgid "compile(): unrecognised flags"
+msgstr ""
+
+#: SystemError
+msgid "deallocated bytearray object has exported buffers"
+msgstr ""
+
+#: TypeError
+msgid "getsockaddrarg: AF_INET address must be tuple, not %.500s"
+msgstr ""
+
+#: OverflowError
+msgid ""
+msgstr ""
+
+#: LookupError
+msgid "no codec search functions registered: can't find encoding"
+msgstr ""
+
+#: ValueError
+msgid "field args is required for Lambda"
+msgstr ""
+
+#: TypeError
+msgid "can't concat %.100s to %.100s"
+msgstr ""
+
+#: TypeError
+msgid "read() didn't return bytes"
+msgstr ""
+
+#: ValueError
+msgid "field body is required for Lambda"
+msgstr ""
+
+#: OSError
+msgid "getsockopt buflen out of range"
+msgstr ""
+
+#: RuntimeError
+msgid "Failed to read %zi bytes from /dev/urandom"
+msgstr ""
+
+#: OverflowError
+msgid "timeout value is too large"
+msgstr ""
+
+#: TypeError
+msgid "type.__init__() takes 1 or 3 arguments"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from DictComp"
+msgstr ""
+
+#: IndexError
+msgid "mmap assignment must be length-1 bytes()"
+msgstr ""
+
+#: ValueError
+msgid "Invalid filter specifier for delta filter"
+msgstr ""
+
+#: OSError
+msgid "IPv4 sockaddr must be 2 tuple"
+msgstr ""
+
+#: TypeError
+msgid "can't subtract offset-naive and offset-aware datetimes"
+msgstr ""
+
+#: BufferError
+msgid "ndarray is not C-contiguous"
+msgstr ""
+
+#: OverflowError
+msgid "size does not fit in an int"
+msgstr ""
+
+#: TypeError
+msgid "comparing strings with non-ASCII characters is not supported"
+msgstr ""
+
+#: TypeError
+msgid "pair_content requires 1 argument"
+msgstr ""
+
+#: ValueError
+msgid "Filter specifier must have an \\ entry"
+msgstr ""
+
+#: TypeError
+msgid "%.200s%s takes at least one argumentfunction()"
+msgstr ""
+
+#: ValueError
+msgid "Invalid dictionary"
+msgstr ""
+
+#: ValueError
+msgid "server_hostname is not supported by your OpenSSL library"
+msgstr ""
+
+#: ValueError
+msgid "Step for islice() must be a positive integer or None."
+msgstr ""
+
+#: TypeError
+msgid "init_color requires 4 arguments"
+msgstr ""
+
+#: ValueError
+msgid "attempt to assign bytes of size %zd to extended slice of size %zd"
+msgstr ""
+
+#: OverflowError
+msgid "user id is less than minimum"
+msgstr ""
+
+#: ValueError
+msgid "field name is required for ClassDef"
+msgstr ""
+
+#: TypeError
+msgid "subwin requires 2 or 4 arguments"
+msgstr ""
+
+#: RuntimeError
+msgid "don't know how to byteswap this array type"
+msgstr ""
+
+#: SystemError
+msgid "Negative size passed to PyBytes_FromStringAndSize"
+msgstr ""
+
+#: TypeError
+msgid "is_linetouched: line number outside of boundaries"
+msgstr ""
+
+#: ValueError
+msgid ""
+"Indices for islice() must be None or an integer: 0 <= x <= sys.maxsize."
+msgstr ""
+
+#: TypeError
+msgid "expected some sort of stmt, but got %R"
+msgstr ""
+
+#: TypeError
+msgid "readv() arg 2 must be a sequence"
+msgstr ""
+
+#: OverflowError
+msgid "unsigned long is less than minimum"
+msgstr ""
+
+#: TypeError
+msgid "name must be a string"
+msgstr ""
+
+#: ValueError
+msgid "Invalid filter ID: %llu"
+msgstr ""
+
+#: ValueError
+msgid "No history item at position %d"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Subscript"
+msgstr ""
+
+#: ImportError
+msgid "Loaded module %R not found in sys.modules"
+msgstr ""
+
+#: TypeError
+msgid "expect bytes or str, got %s"
+msgstr ""
+
+#: ValueError
+msgid "field ctx is required for Name"
+msgstr ""
+
+#: ValueError
+msgid "string keys in translate table must be of length 1"
+msgstr ""
+
+#: TypeError
+msgid "%s.__new__(%s) is not safe, use %s.__new__()?"
+msgstr ""
+
+#: ValueError
+msgid "negative buffersize in recv_into"
+msgstr ""
+
+#: TypeError
+msgid "don't know how to handle %S in error callback"
+msgstr ""
+
+#: ValueError
+msgid "field operand is required for UnaryOp"
+msgstr ""
+
+#: OverflowError
+msgid "bytes object is too large to make repr"
+msgstr ""
+
+#: TypeError
+msgid "string argument without an encoding"
+msgstr ""
+
+#: TypeError
+msgid "%.200s attribute must be unicode"
+msgstr ""
+
+#: ValueError
+msgid "negative argument not allowed"
+msgstr ""
+
+#: TypeError
+msgid "%s%s takes at most %d argument%s (%d given)function()s"
+msgstr ""
+
+#: OverflowError
+msgid "could not allocate a large enough CPU set"
+msgstr ""
+
+#: ValueError
+msgid "Integrity checks are only supported by FORMAT_XZ"
+msgstr ""
+
+#: TypeError
+msgid "%s() arg 1 must be a %s object"
+msgstr ""
+
+#: TypeError
+msgid "calling %R should have returned an instance of BaseException, not %R"
+msgstr ""
+
+#: ValueError
+msgid "non-hexadecimal number found in fromhex() arg at position %zd"
+msgstr ""
+
+#: TypeError
+msgid "pickle.load() takes exactly one positional argument (%zd given)"
+msgstr ""
+
+#: ValueError
+msgid "field s is required for Bytes"
+msgstr ""
+
+#: TypeError
+msgid "can't take floor of complex number."
+msgstr ""
+
+#: OverflowError
+msgid "string too long for Python string"
+msgstr ""
+
+#: TypeError
+msgid "object.__init__() takes no parameters"
+msgstr ""
+
+#: TypeError
+msgid "if you give only one argument to maketrans it must be a dict"
+msgstr ""
+
+#: TypeError
+msgid "descriptor '%V' requires a '%.100s' object but received a '%.100s'?"
+msgstr ""
+
+#: SyntaxError
+msgid "name '%U' is nonlocal and global"
+msgstr ""
+
+#: TypeError
+msgid "iter() returned non-iterator of type '%.100s'"
+msgstr ""
+
+#: ValueError
+msgid "field ctx is required for Attribute"
+msgstr ""
+
+#: ValueError
+msgid "translation table must be 256 characters long"
+msgstr ""
+
+#: KeyError
+msgid "unknown symbol table entry"
+msgstr ""
+
+#: ValueError
+msgid "field elt is required for ListComp"
+msgstr ""
+
+#: TypeError
+msgid "%U() missing %i required %s argument%s: %Us"
+msgstr ""
+
+#: ValueError
+msgid "read() returned too much data: %i bytes requested, %zd returned"
+msgstr ""
+
+#: TypeError
+msgid "expected bytes with no null"
+msgstr ""
+
+#: TypeError
+msgid "memoryview: cannot cast between two non-byte formats"
+msgstr ""
+
+#: TypeError
+msgid "both destination and source must have the buffer interface"
+msgstr ""
+
+#: IndexError
+msgid "tuple assignment index out of range"
+msgstr ""
+
+#: TypeError
+msgid "__class__ must be set to a class, not '%s' object"
+msgstr ""
+
+#: SystemError
+msgid "bad format string: %.200s"
+msgstr ""
+
+#: ValueError
+msgid "buffer_size must be greater than zero"
+msgstr ""
+
+#: ValueError
+msgid "Trailing \\\\ in string"
+msgstr ""
+
+#: ValueError
+msgid "timeout must be non-negative"
+msgstr ""
+
+#: ValueError
+msgid ""
+"Stop argument for islice() must be None or an integer: 0 <= x <= "
+"sys.maxsize."
+msgstr ""
+
+#: ValueError
+msgid "field n is required for Num"
+msgstr ""
+
+#: IndexError
+msgid "pop from empty list"
+msgstr ""
+
+#: TypeError
+msgid "cannot add suboffsets to PIL-style array"
+msgstr ""
+
+#: RuntimeError
+msgid "generator ignored GeneratorExit"
+msgstr ""
+
+#: ValueError
+msgid "field context_expr is required for withitem"
+msgstr ""
+
+#: SystemError
+msgid "unhandled expr: %d"
+msgstr ""
+
+#: TypeError
+msgid "hline requires 2 to 5 arguments"
+msgstr ""
+
+#: TypeError
+msgid "__bytes__ returned non-bytes (type %.200s)"
+msgstr ""
+
+#: ValueError
+msgid "Cannot specify ',' with '\\\\x%x'."
+msgstr ""
+
+#: IOError
+msgid "can't find module %RU:zipimporter.get_dataCC"
+msgstr ""
+
+#: ValueError
+msgid "invalid order, must be C, F or A"
+msgstr ""
+
+#: SystemError
+msgid "error return without exception set"
+msgstr ""
+
+#: TypeError
+msgid "addstr requires 1 to 4 arguments"
+msgstr ""
+
+#: TypeError
+msgid "can only join an iterable of bytes (item %ld has type '%.100s')"
+msgstr ""
+
+#: ValueError
+msgid "level must be >= 0"
+msgstr ""
+
+#: ValueError
+msgid "Cell is empty"
+msgstr ""
+
+#: TypeError
+msgid "frozen object %R is not a code object"
+msgstr ""
+
+#: ValueError
+msgid "field arg is required for keyword"
+msgstr ""
+
+#: ValueError
+msgid "field value is required for Index"
+msgstr ""
+
+#: UnicodeError
+msgid "\\\\N escapes not supported (can't load unicodedata module)"
+msgstr ""
+
+#: ValueError
+msgid "int() base must be >= 2 and <= 36"
+msgstr ""
+
+#: TypeError
+msgid "ExtSlice field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: ValueError
+msgid "could not convert string to float: %.200s"
+msgstr ""
+
+#: RuntimeError
+msgid "super(): __class__ cell not found"
+msgstr ""
+
+#: RuntimeError
+msgid "input(): lost sys.stderr"
+msgstr ""
+
+#: AttributeError
+msgid "This object has no __weakref__"
+msgstr ""
+
+#: SystemError
+msgid "bad memberdescr type for %s"
+msgstr ""
+
+#: OverflowError
+msgid "overflow occurred during round"
+msgstr ""
+
+#: ValueError
+msgid "lineno out of range"
+msgstr ""
+
+#: TypeError
+msgid "spawnvpe() arg 2 must be a tuple or list"
+msgstr ""
+
+#: TypeError
+msgid "%U() got an unexpected keyword argument '%S'"
+msgstr ""
+
+#: TypeError
+msgid "With field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: TypeError
+msgid "descriptor '%V' for '%.100s' objects doesn't apply to '%.100s' object?"
+msgstr ""
+
+#: ValueError
+msgid "need more than %zd values to unpack"
+msgstr ""
+
+#: ValueError
+msgid "operation forbidden on released memoryview object"
+msgstr ""
+
+#: ValueError
+msgid ""
+"__setformat__() argument 2 must be 'unknown', 'IEEE, little-endian' or "
+"'IEEE, big-endian'"
+msgstr ""
+
+#: RuntimeError
+msgid "super(): no code object"
+msgstr ""
+
+#: TypeError
+msgid "'%.200s' object is not iterable"
+msgstr ""
+
+#: TypeError
+msgid "reduce() arg 2 must support iteration"
+msgstr ""
+
+#: ValueError
+msgid "pickle protocol must be <= %d"
+msgstr ""
+
+#: SystemError
+msgid "non-ascii grouped digit"
+msgstr ""
+
+#: ValueError
+msgid "field body is required for Expression"
+msgstr ""
+
+#: ValueError
+msgid "PyCapsule_GetPointer called with incorrect name"
+msgstr ""
+
+#: ValueError
+msgid "Timeout value out of range"
+msgstr ""
+
+#: TypeError
+msgid "SetComp field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: ValueError
+msgid "day is out of range for month"
+msgstr ""
+
+#: ValueError
+msgid "offset must be a multiple of itemsize"
+msgstr ""
+
+#: MemoryError
+msgid "unable to allocate password buffer"
+msgstr ""
+
+#: TypeError
+msgid "%.200s() takes exactly one argument (%zd given)"
+msgstr ""
+
+#: TypeError
+msgid "pow() 3rd argument not allowed unless all arguments are integers"
+msgstr ""
+
+#: TypeError
+msgid "spawnve() arg 2 must be a tuple or list"
+msgstr ""
+
+#: RuntimeError
+msgid "sub-interpreter creation failed"
+msgstr ""
+
+#: OverflowError
+msgid "CMSG_SPACE() argument out of range"
+msgstr ""
+
+#: TypeError
+msgid "type() takes 1 or 3 arguments"
+msgstr ""
+
+#: SystemError
+msgid "unexpected statement"
+msgstr ""
+
+#: ValueError
+msgid "Precision not allowed in integer format specifier"
+msgstr ""
+
+#: TypeError
+msgid "expected an object with a writable buffer interface"
+msgstr ""
+
+#: SystemError
+msgid "unary op %d should not be possible"
+msgstr ""
+
+#: SystemError
+msgid "invalid kind"
+msgstr ""
+
+#: TypeError
+msgid "__name__ must be a string"
+msgstr ""
+
+#: ValueError
+msgid "field name is required for alias"
+msgstr ""
+
+#: TypeError
+msgid "globals must be a dict"
+msgstr ""
+
+#: ValueError
+msgid "signal only works in main thread"
+msgstr ""
+
+#: TypeError
+msgid "expected %s node, got %.400s"
+msgstr ""
+
+#: TypeError
+msgid "zip_longest argument #%zd must support iteration"
+msgstr ""
+
+#: ValueError
+msgid "can't jump to 'except' line as there's no exception"
+msgstr ""
+
+#: ValueError
+msgid "not a symbolic link"
+msgstr ""
+
+#: TypeError
+msgid "Type %.100s doesn't define __format__"
+msgstr ""
+
+#: TypeError
+msgid "getsockaddrarg: AF_TIPC address must be tuple, not %.500s"
+msgstr ""
+
+#: TypeError
+msgid "type %.100s doesn't define __round__ method"
+msgstr ""
+
+#: OverflowError
+msgid "Unrecognized error from liblzma: %dIKIValue too large for  type"
+msgstr ""
+
+#: MemoryError
+msgid "stack overflow"
+msgstr ""
+
+#: TypeError
+msgid "NoneType takes no arguments"
+msgstr ""
+
+#: TypeError
+msgid "zip argument #%zd must support iteration"
+msgstr ""
+
+#: TypeError
+msgid "Required argument '%s' (pos %d) not found"
+msgstr ""
+
+#: RuntimeError
+msgid "filesystem encoding is not initialized"
+msgstr ""
+
+#: TypeError
+msgid "__index__ returned non-int (type %.200s)"
+msgstr ""
+
+#: TypeError
+msgid "element indices must be integers"
+msgstr ""
+
+#: TypeError
+msgid "echochar requires 1 or 2 arguments"
+msgstr ""
+
+#: OverflowError
+msgid "can't convert negative int to unsigned"
+msgstr ""
+
+#: TypeError
+msgid "timeout must be an integer or None"
+msgstr ""
+
+#: OverflowError
+msgid "range too large to represent as a range_iterator"
+msgstr ""
+
+#: ValueError
+msgid "memoryview.cast(): elements of shape must be integers > 0"
+msgstr ""
+
+#: TypeError
+msgid "AST identifier must be of type str"
+msgstr ""
+
+#: OSError
+msgid "cannot find kernel control with provided name"
+msgstr ""
+
+#: SystemError
+msgid "unhandled import name condition"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from FunctionDef"
+msgstr ""
+
+#: TypeError
+msgid "<descriptor>.__name__ is not a unicode object"
+msgstr ""
+
+#: TypeError
+msgid "__build_class__: args is not a tuple"
+msgstr ""
+
+#: TypeError
+msgid "expect bytes or str of length 1, or int, got a str of length %zi"
+msgstr ""
+
+#: BufferError
+msgid "destination is too small to receive data from source"
+msgstr ""
+
+#: ValueError
+msgid "Too many filters - liblzma supports a maximum of %d"
+msgstr ""
+
+#: BufferError
+msgid "memoryview: underlying buffer is not Fortran contiguous"
+msgstr ""
+
+#: IndexError
+msgid "deque index out of range"
+msgstr ""
+
+#: NotImplementedError
+msgid "memoryview: format %s not supported"
+msgstr ""
+
+#: TypeError
+msgid "can only extend with array of same kind"
+msgstr ""
+
+#: ValueError
+msgid ""
+"PyUnicode_FromFormatV() expects an ASCII-encoded format string, got a non-"
+"ASCII byte: 0x%02x"
+msgstr ""
+
+#: TypeError
+msgid "no positional arguments expected"
+msgstr ""
+
+#: TypeError
+msgid "sequence item %zd: expected bytes, %.80s found"
+msgstr ""
+
+#: TypeError
+msgid "%.200s() takes no arguments (%d given)"
+msgstr ""
+
+#: TypeError
+msgid ""
+"can't pickle '%.200s' object: %R__reduce__ must return a string or "
+"tupleclear_memo() -> None. Clears the pickler's \\.\\nThe memo is the data "
+"structure that remembers which objects the\\npickler has already seen, so "
+"that shared or recursive objects are\\npickled by reference and not by "
+"value.  This method is useful when\\nre-using picklers.dump(obj) -> None. "
+"Write a pickled representation of obj to the open file.Pickler.__init__() "
+"was not called by %s.__init__()O:dumpdumpclear_memoPickler(file, "
+"protocol=None)\\nThis takes a binary file for writing a pickle data "
+"stream.\\n\\nThe optional protocol argument tells the pickler to use "
+"the\\ngiven protocol; supported protocols are 0, 1, 2, 3.  The "
+"default\\nprotocol is 3; a backward-incompatible protocol designed "
+"for\\nPython 3.0.\\n\\nSpecifying a negative protocol version selects the "
+"highest\\nprotocol version supported.  The higher the protocol used, "
+"the\\nmore recent the version of Python needed to read the "
+"pickle\\nproduced.\\n\\nThe file argument must have a write() method that "
+"accepts a single\\nbytes argument. It can thus be a file object opened for "
+"binary\\nwriting, a io.BytesIO instance, or any other custom object "
+"that\\nmeets this interface.\\n\\nIf fix_imports is True and protocol is "
+"less than 3, pickle will try to\\nmap the new Python 3.x names to the old "
+"module names used in Python\\n2.x, so that the pickle data stream is "
+"readable with Python 2.x.\\nfileprotocolfix_importsO|OO:Picklermemo.clear() "
+"-> None.  Remove all items from memo.memo.copy() -> new_memo.  Copy the memo"
+" to a new object.nOmemo.__reduce__(). Pickling "
+"support.clearcopy__reduce___pickle.PicklerMemoProxyattribute deletion is not"
+" supported"
+msgstr ""
+
+#: ValueError
+msgid "unsupported langinfo constant"
+msgstr ""
+
+#: RuntimeError
+msgid ""
+"unable to raise a stack overflow (allocated %zu bytes on the stack, %zu "
+"recursive calls)"
+msgstr ""
+
+#: RuntimeError
+msgid "file.fileno() is not a valid file descriptor"
+msgstr ""
+
+#: TypeError
+msgid "expected some sort of unaryop, but got %R"
+msgstr ""
+
+#: ValueError
+msgid "field iter is required for For"
+msgstr ""
+
+#: OSError
+msgid "illegal IP address string passed to inet_pton"
+msgstr ""
+
+#: RuntimeError
+msgid "this compiler does not handle Suites"
+msgstr ""
+
+#: ValueError
+msgid "negative CPU number"
+msgstr ""
+
+#: ValueError
+msgid "ndim must not exceed %d"
+msgstr ""
+
+#: TypeError
+msgid "cannot delete __dict__"
+msgstr ""
+
+#: SystemError
+msgid "PyEval_EvalCodeEx: NULL globals"
+msgstr ""
+
+#: TypeError
+msgid "can't compare %.200s to %.200s"
+msgstr ""
+
+#: ValueError
+msgid "invalid who parameter"
+msgstr ""
+
+#: TypeError
+msgid "ord() expected a character, but string of length %zd found"
+msgstr ""
+
+#: SystemError
+msgid "unhandled atom %d"
+msgstr ""
+
+#: TypeError
+msgid "2nd arg must be a tuple"
+msgstr ""
+
+#: TypeError
+msgid "array item must be unicode character"
+msgstr ""
+
+#: ValueError
+msgid "day of year out of range"
+msgstr ""
+
+#: RuntimeError
+msgid ""
+"_compat_pickle.REVERSE_NAME_MAPPING values should be pairs of str, not "
+"(%.200s, %.200s)"
+msgstr ""
+
+#: TypeError
+msgid "can't delete %s.%s"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from expr"
+msgstr ""
+
+#: RuntimeError
+msgid "main thread is not in main loop"
+msgstr ""
+
+#: SystemError
+msgid "unknown operator found"
+msgstr ""
+
+#: OverflowError
+msgid "float too large to pack with d format"
+msgstr ""
+
+#: SystemError
+msgid "invalid maximum character passed to PyUnicode_New"
+msgstr ""
+
+#: ValueError
+msgid "Operation on closed OSS device."
+msgstr ""
+
+#: TypeError
+msgid "code object passed to eval() may not contain free variables"
+msgstr ""
+
+#: OverflowError
+msgid "cannot serialize a bytes object larger than 4 GiB"
+msgstr ""
+
+#: ValueError
+msgid "errpipe_write must be >= 3"
+msgstr ""
+
+#: TypeError
+msgid "argument must be sequence"
+msgstr ""
+
+#: ImportError
+msgid "OS/2 TCP/IP Error# %d"
+msgstr ""
+
+#: TypeError
+msgid "dbm mappings have byte string elements only"
+msgstr ""
+
+#: ValueError
+msgid "%s() arg is an empty sequence"
+msgstr ""
+
+#: SystemError
+msgid "frexp() result out of range"
+msgstr ""
+
+#: OverflowError
+msgid "absolute value too large"
+msgstr ""
+
+#: ValueError
+msgid "socket descriptor string has wrong size, should be %zu bytes."
+msgstr ""
+
+#: ValueError
+msgid "sleep length must be non-negative"
+msgstr ""
+
+#: ValueError
+msgid "tounicode() may only be called on unicode type arrays"
+msgstr ""
+
+#: TypeError
+msgid "spawnve() arg 3 must be a mapping object"
+msgstr ""
+
+#: ValueError
+msgid "field value is required for DictComp"
+msgstr ""
+
+#: OverflowError
+msgid "sleep length is too large"
+msgstr ""
+
+#: UnicodeEncodeError
+msgid ""
+"can't pickle module identifier '%S' using pickle protocol %i\\ncan't pickle "
+"global identifier '%S' using pickle protocol %i"
+msgstr ""
+
+#: SystemError
+msgid "invalid comp_op: %s %s"
+msgstr ""
+
+#: ValueError
+msgid "field orelse is required for IfExp"
+msgstr ""
+
+#: ValueError
+msgid "second must be in 0..59"
+msgstr ""
+
+#: ValueError
+msgid "negative PUT argument"
+msgstr ""
+
+#: TypeError
+msgid "%s() got an unexpected keyword argument"
+msgstr ""
+
+#: OverflowError
+msgid "input: input too long"
+msgstr ""
+
+#: RuntimeError
+msgid "unable to get the current thread state"
+msgstr ""
+
+#: ValueError
+msgid "unknown clock"
+msgstr ""
+
+#: ValueError
+msgid "fromutc: tz.dst() gave"
+msgstr ""
+
+#: TypeError
+msgid "locals must be a mapping"
+msgstr ""
+
+#: OverflowError
+msgid "too much marshal data for a string"
+msgstr ""
+
+#: TypeError
+msgid "character mapping must return integer, bytes or None, not %.400s"
+msgstr ""
+
+#: TypeError
+msgid "str() or repr() returned '%.100s'"
+msgstr ""
+
+#: TypeError
+msgid "codec search functions must return 4-tuples"
+msgstr ""
+
+#: OverflowError
+msgid "user id is greater than maximum"
+msgstr ""
+
+#: TypeError
+msgid "sum() can't sum bytearray [use b''.join(seq) instead]"
+msgstr ""
+
+#: ValueError
+msgid "negative buffersize in recvfrom_into"
+msgstr ""
+
+#: TypeError
+msgid "invalid indexing of 0-dim memory"
+msgstr ""
+
+#: ValueError
+msgid "Invalid container format: %d"
+msgstr ""
+
+#: TypeError
+msgid "fromutc: argument must be a datetime"
+msgstr ""
+
+#: OverflowError
+msgid "integer division result too large for a float"
+msgstr ""
+
+#: TypeError
+msgid "argument should be a contiguous buffer, not %R"
+msgstr ""
+
+#: TypeError
+msgid "%U() takes %U positional argument%s but %d%U %s givenswaswere"
+msgstr ""
+
+#: RuntimeError
+msgid "results from PyBuffer_IsContiguous() and flags differ"
+msgstr ""
+
+#: NotImplementedError
+msgid "a tzinfo subclass must implement %s()"
+msgstr ""
+
+#: TypeError
+msgid "intrflush requires 1 argument"
+msgstr ""
+
+#: ValueError
+msgid "timeout must be positive or None"
+msgstr ""
+
+#: EOFError
+msgid "read() didn't return enough bytes"
+msgstr ""
+
+#: OSError
+msgid "wildcard resolved to multiple address"
+msgstr ""
+
+#: AttributeError
+msgid "__module__"
+msgstr ""
+
+#: ValueError
+msgid "bytes must be in range(0, 256)"
+msgstr ""
+
+#: TypeError
+msgid "unpacked tuple should have %s%zd elements, but has %zdat least "
+msgstr ""
+
+#: OSError
+msgid "Int or String expected"
+msgstr ""
+
+#: AttributeError
+msgid "persistent_load"
+msgstr ""
+
+#: OverflowError
+msgid "int has too many bits to express in a platform size_t"
+msgstr ""
+
+#: ValueError
+msgid "busywaitinterval must be >= 0"
+msgstr ""
+
+#: TypeError
+msgid "float() argument must be a string or a number"
+msgstr ""
+
+#: TypeError
+msgid "expected bytes, bytearray or buffer compatible object"
+msgstr ""
+
+#: TypeError
+msgid "unknown dialectfield_size_limitlimit must be an integer"
+msgstr ""
+
+#: TypeError
+msgid "vars() argument must have __dict__ attribute"
+msgstr ""
+
+#: TypeError
+msgid "getaddrinfo() argument 1 must be string or None"
+msgstr ""
+
+#: TypeError
+msgid "Can't convert '%.100s' object to str implicitly"
+msgstr ""
+
+#: SystemError
+msgid "unexpected expression"
+msgstr ""
+
+#: ValueError
+msgid "Buffer is NULL"
+msgstr ""
+
+#: ValueError
+msgid "bad marshal data (long size out of range)"
+msgstr ""
+
+#: TypeError
+msgid "__annotations__ must be set to a dict object"
+msgstr ""
+
+#: ValueError
+msgid "microsecond must be in 0..999999"
+msgstr ""
+
+#: OverflowError
+msgid "string is too large"
+msgstr ""
+
+#: TypeError
+msgid "endswith first arg must be str or a tuple of str, not %s"
+msgstr ""
+
+#: ValueError
+msgid "ndarray assignment: lvalue and rvalue have different structures"
+msgstr ""
+
+#: TypeError
+msgid "arg 3 (name) must be None or string"
+msgstr ""
+
+#: ValueError
+msgid "field elt is required for GeneratorExp"
+msgstr ""
+
+#: TypeError
+msgid "BoolOp field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: SystemError
+msgid "param invalid for deref variable"
+msgstr ""
+
+#: SyntaxError
+msgid ""
+msgstr ""
+
+#: SyntaxError
+msgid "too many annotations"
+msgstr ""
+
+#: TypeError
+msgid "use_env requires 1 argument"
+msgstr ""
+
+#: OSError
+msgid "bad bluetooth address"
+msgstr ""
+
+#: TypeError
+msgid "__str__ returned non-string (type %.200s)"
+msgstr ""
+
+#: OverflowError
+msgid "string is too large to encode"
+msgstr ""
+
+#: SystemError
+msgid "initialization of %s raised unreported exception"
+msgstr ""
+
+#: TypeError
+msgid "arg 5 (closure) must be tuple"
+msgstr ""
+
+#: KeyError
+msgid "%R not in sys.modules as expected"
+msgstr ""
+
+#: TypeError
+msgid "getsockaddrarg: AF_PACKET address must be tuple, not %.500s"
+msgstr ""
+
+#: ValueError
+msgid "fromutc: non-None utcoffset() result required"
+msgstr ""
+
+#: ValueError
+msgid "could not convert string to int"
+msgstr ""
+
+#: TypeError
+msgid "first argument must be a slice object"
+msgstr ""
+
+#: TypeError
+msgid "illegal type for %s parameter"
+msgstr ""
+
+#: SystemError
+msgid "null argument to internal routine"
+msgstr ""
+
+#: ValueError
+msgid "math domain error"
+msgstr ""
+
+#: EOFError
+msgid "Compressed file ended before the logical end-of-stream was detected"
+msgstr ""
+
+#: TypeError
+msgid "source code string cannot contain null bytes"
+msgstr ""
+
+#: ValueError
+msgid "negative buffersize in recvfrom"
+msgstr ""
+
+#: TypeError
+msgid "tcsetattr: elements of attributes must be characters or integers"
+msgstr ""
+
+#: ValueError
+msgid "hexadecimal string too long to convert"
+msgstr ""
+
+#: TypeError
+msgid "memoryview_from_buffer: ndim is limited to %d"
+msgstr ""
+
+#: TypeError
+msgid "unsupported operand type(s) for pow(): '%.100s', '%.100s', '%.100s'"
+msgstr ""
+
+#: ValueError
+msgid "byte must be in range(0, 256)"
+msgstr ""
+
+#: ValueError
+msgid ""
+"offset must be a timedelta strictly between -timedelta(hours=24) and "
+"timedelta(hours=24), not %R."
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from ExtSlice"
+msgstr ""
+
+#: OverflowError
+msgid "signed char is less than minimum"
+msgstr ""
+
+#: ValueError
+msgid "provided string is too long"
+msgstr ""
+
+#: TypeError
+msgid "bad tzinfo state arg"
+msgstr ""
+
+#: TypeError
+msgid "argument must be an int, or have a fileno() method."
+msgstr ""
+
+#: ValueError
+msgid "signal number out of range"
+msgstr ""
+
+#: TypeError
+msgid "__getnewargs__ should return a tuple, not '%.200s'"
+msgstr ""
+
+#: SystemError
+msgid "unknown cmpop found"
+msgstr ""
+
+#: TypeError
+msgid "not all arguments converted during string formatting"
+msgstr ""
+
+#: TypeError
+msgid "keys in translate table must be strings or integers"
+msgstr ""
+
+#: ValueError
+msgid "invalid fd"
+msgstr ""
+
+#: ValueError
+msgid "unknown seek type"
+msgstr ""
+
+#: ValueError
+msgid "Invalid format specifier"
+msgstr ""
+
+#: OverflowError
+msgid "%c arg not in range(0x110000)"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Dict"
+msgstr ""
+
+#: ValueError
+msgid "ndarray: tolist() does not support format=NULL, use tobytes()"
+msgstr ""
+
+#: TypeError
+msgid "zip_longest() got an unexpected keyword argument"
+msgstr ""
+
+#: TypeError
+msgid "meta requires 1 argument"
+msgstr ""
+
+#: ValueError
+msgid "%R in __slots__ conflicts with class variable"
+msgstr ""
+
+#: TypeError
+msgid "register() takes at least 1 argument (0 given)"
+msgstr ""
+
+#: OverflowError
+msgid "mktime argument out of range"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Attribute"
+msgstr ""
+
+#: TypeError
+msgid "len() of unsized object"
+msgstr ""
+
+#: RuntimeError
+msgid ""
+"Can't pickle %R: import of module %R failedCan't pickle %R: attribute lookup"
+" %S.%S failedCan't pickle %R: it's not the same object as %S.%SCan't pickle "
+"%R: extension code %R isn't an integerCan't pickle %R: extension code %ld is"
+" out of range_compat_pickle.REVERSE_NAME_MAPPING values should be 2-tuples, "
+"not %.200s"
+msgstr ""
+
+#: TypeError
+msgid "setting encoding to a non-string"
+msgstr ""
+
+#: ValueError
+msgid "can't jump into or out of a 'finally' block"
+msgstr ""
+
+#: ValueError
+msgid "memoryview: number of dimensions must not exceed "
+msgstr ""
+
+#: TypeError
+msgid "unhashable type: '%.200s'"
+msgstr ""
+
+#: RuntimeError
+msgid ""
+"the processor time used is not available or its value cannot be represented"
+msgstr ""
+
+#: TypeError
+msgid "first arg must be callable"
+msgstr ""
+
+#: ValueError
+msgid "field target is required for For"
+msgstr ""
+
+#: ValueError
+msgid "lineno must be an integer"
+msgstr ""
+
+#: SystemError
+msgid "too many statically nested blocks"
+msgstr ""
+
+#: TypeError
+msgid "Function takes %s %d positional arguments (%d given)at mostexactly"
+msgstr ""
+
+#: OverflowError
+msgid "unsigned long long is less than minimum"
+msgstr ""
+
+#: RuntimeError
+msgid "Invalid format string (| specified twice)"
+msgstr ""
+
+#: TypeError
+msgid "need a single Unicode character as parameter"
+msgstr ""
+
+#: TypeError
+msgid "throw() third argument must be a traceback object"
+msgstr ""
+
+#: TypeError
+msgid "cannot create weak reference to '%s' object"
+msgstr ""
+
+#: KeyError
+msgid "popitem(): dictionary is empty"
+msgstr ""
+
+#: TypeError
+msgid "__getformat__() argument must be string, not %.500s"
+msgstr ""
+
+#: TypeError
+msgid "first argument must be callable"
+msgstr ""
+
+#: TypeError
+msgid "expected some sort of boolop, but got %R"
+msgstr ""
+
+#: TypeError
+msgid "buffertype must be PyBUF_READ or PyBUF_WRITE"
+msgstr ""
+
+#: TypeError
+msgid "getattr(): attribute name must be string"
+msgstr ""
+
+#: RuntimeError
+msgid "invalid handling of inet_ntop"
+msgstr ""
+
+#: TypeError
+msgid "startswith first arg must be str or a tuple of str, not %s"
+msgstr ""
+
+#: SystemError
+msgid "Cannot write %zi characters at %zi in a string of %zi characters"
+msgstr ""
+
+#: TypeError
+msgid "bases must be types"
+msgstr ""
+
+#: TypeError
+msgid "delch requires 0 or 2 arguments"
+msgstr ""
+
+#: TypeError
+msgid ""
+"%.150s%s takes %s %d argument%s (%ld given)function()exactlyat leastat mosts"
+msgstr ""
+
+#: TypeError
+msgid "memoryview: casts are restricted to C-contiguous views"
+msgstr ""
+
+#: TypeError
+msgid "argument must have 'read' attribute"
+msgstr ""
+
+#: RuntimeError
+msgid ""
+msgstr ""
+
+#: TypeError
+msgid "vline requires 2 to 5 arguments"
+msgstr ""
+
+#: TypeError
+msgid "codec must pass exception instance"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Nonlocal"
+msgstr ""
+
+#: OverflowError
+msgid "replace bytes is too long"
+msgstr ""
+
+#: ZeroDivisionError
+msgid "float modulo"
+msgstr ""
+
+#: ValueError
+msgid "ND_VAREXPORT flag can only be used during object creation"
+msgstr ""
+
+#: SystemError
+msgid "Unmatched paren in format"
+msgstr ""
+
+#: IndexError
+msgid "mmap slice assignment is wrong size"
+msgstr ""
+
+#: ValueError
+msgid "'=' alignment flag is not allowed in complex format specifier"
+msgstr ""
+
+#: TypeError
+msgid "character mapping must be in range(0x%lx)"
+msgstr ""
+
+#: ValueError
+msgid "Cannot pass NaN to float.as_integer_ratio."
+msgstr ""
+
+#: ValueError
+msgid "field iter is required for comprehension"
+msgstr ""
+
+#: BufferError
+msgid "memoryview: underlying buffer is not C-contiguous"
+msgstr ""
+
+#: TypeError
+msgid "can't compare %s to %s"
+msgstr ""
+
+#: TypeError
+msgid ""
+"'%c' format requires 0 <= number <= %zu'%c' format requires %zd <= number <="
+" %zdbyte format requires -128 <= number <= 127ubyte format requires 0 <= "
+"number <= 255char format requires a bytes object of length 1short format "
+"requires  <= number <= ushort format requires 0 <= number <= required "
+"argument is not a floatrequired argument is not a floatrequired argument is "
+"not a floatrequired argument is not a floatrequired argument is not a "
+"floatrequired argument is not a floatbad char in struct formatrepeat count "
+"given without format specifiertotal struct size too "
+"longformatO:StructStruct() argument 1 must be a bytes object, not %.200s"
+msgstr ""
+
+#: SystemError
+msgid "bad format char passed to Py_BuildValue"
+msgstr ""
+
+#: OSError
+msgid "can't use AF_INET6, IPv6 is disabled"
+msgstr ""
+
+#: SystemError
+msgid "unknown expr_context found"
+msgstr ""
+
+#: EOFError
+msgid "Already at end of stream"
+msgstr ""
+
+#: ValueError
+msgid "unsupported pickle protocol: %d"
+msgstr ""
+
+#: OSError
+msgid "getsockaddrlen: unknown PF_SYSTEM protocol"
+msgstr ""
+
+#: TypeError
+msgid "Tuple field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: TypeError
+msgid "this __dict__ descriptor does not support '%.200s' objects"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Assert"
+msgstr ""
+
+#: ValueError
+msgid "password cannot be longer than %d bytes"
+msgstr ""
+
+#: ValueError
+msgid "Cannot specify ',' with '%c'."
+msgstr ""
+
+#: SystemError
+msgid "nameless module"
+msgstr ""
+
+#: ValueError
+msgid "bad marshal data (list size out of range)"
+msgstr ""
+
+#: NotImplementedError
+msgid "link: src and dst must be the same type"
+msgstr ""
+
+#: TypeError
+msgid "the first argument must be callable"
+msgstr ""
+
+#: ValueError
+msgid "Repeated call to flush()"
+msgstr ""
+
+#: ValueError
+msgid "can't clear options before OpenSSL 0.9.8m"
+msgstr ""
+
+#: TypeError
+msgid "can only concatenate tuple (not \\) to tuple"
+msgstr ""
+
+#: TypeError
+msgid "tzinfo.tzname() must return None or a string, not '%s'"
+msgstr ""
+
+#: ValueError
+msgid "source, destination, or count out of range"
+msgstr ""
+
+#: TypeError
+msgid "instance exception may not have a separate value"
+msgstr ""
+
+#: MemoryError
+msgid "zipimport: no memory to allocate source buffer"
+msgstr ""
+
+#: TypeError
+msgid "exception context must be None or derive from BaseException"
+msgstr ""
+
+#: TypeError
+msgid "__format__ method did not return string"
+msgstr ""
+
+#: TypeError
+msgid "changelist must be an iterable of select.kevent objects"
+msgstr ""
+
+#: TypeError
+msgid "argument 1 must have a \\ method"
+msgstr ""
+
+#: SystemError
+msgid "unknown boolop found"
+msgstr ""
+
+#: OverflowError
+msgid "long int too large to convert to float"
+msgstr ""
+
+#: TypeError
+msgid "While field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: TypeError
+msgid "chgat requires 1 to 4 arguments"
+msgstr ""
+
+#: RuntimeError
+msgid "deepcopy helper not found"
+msgstr ""
+
+#: TypeError
+msgid "writeobject with NULL file"
+msgstr ""
+
+#: ValueError
+msgid "ImportFrom level less than -1"
+msgstr ""
+
+#: ValueError
+msgid "signal number %ld out of range"
+msgstr ""
+
+#: TypeError
+msgid "can't convert complex to float"
+msgstr ""
+
+#: NotImplementedError
+msgid "memoryview slice assignments are currently restricted to ndim = 1"
+msgstr ""
+
+#: TypeError
+msgid "can only concatenate list (not \\) to list"
+msgstr ""
+
+#: ValueError
+msgid "attempt to assign array of size %zd to extended slice of size %zd"
+msgstr ""
+
+#: TypeError
+msgid "%.200s attribute not set"
+msgstr ""
+
+#: TypeError
+msgid "mro() returned base with unsuitable layout ('%.500s')"
+msgstr ""
+
+#: ValueError
+msgid "cannot mmap an empty file"
+msgstr ""
+
+#: TypeError
+msgid ""
+"unsupported operand types(s) or combination of types: '%.100s' and '%.100s'"
+msgstr ""
+
+#: TypeError
+msgid "argument should be %s, not %.200s"
+msgstr ""
+
+#: ValueError
+msgid "__name__ must not contain null bytes"
+msgstr ""
+
+#: TypeError
+msgid "array indices must be integers"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from arguments"
+msgstr ""
+
+#: TypeError
+msgid "expected some sort of operator, but got %R"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Index"
+msgstr ""
+
+#: MemoryError
+msgid "memory was exhausted while profiling"
+msgstr ""
+
+#: ValueError
+msgid "the first two maketrans arguments must have equal length"
+msgstr ""
+
+#: OverflowError
+msgid "bytearray object is too large to make repr"
+msgstr ""
+
+#: ValueError
+msgid "recursion limit exceeded"
+msgstr ""
+
+#: TypeError
+msgid "must use keyword argument for key function"
+msgstr ""
+
+#: TypeError
+msgid "env.keys() or env.values() is not a list"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Delete"
+msgstr ""
+
+#: TypeError
+msgid "bad argument list"
+msgstr ""
+
+#: ValueError
+msgid "expression which can't be assigned to in %s context"
+msgstr ""
+
+#: TypeError
+msgid "integer argument expected, got float"
+msgstr ""
+
+#: NotImplementedError
+msgid "%s%s%s unavailable on this platform: "
+msgstr ""
+
+#: ValueError
+msgid "f_lineno can only be set by a line trace function"
+msgstr ""
+
+#: TypeError
+msgid "cannot index memory using \\"
+msgstr ""
+
+#: TypeError
+msgid "mmap can't resize a readonly or copy-on-write memory map."
+msgstr ""
+
+#: AttributeError
+msgid "PyCapsule_Import \\ is not valid"
+msgstr ""
+
+#: TypeError
+msgid "setsyx requires 2 arguments"
+msgstr ""
+
+#: TypeError
+msgid "<method>.__class__.__qualname__ is not a unicode object"
+msgstr ""
+
+#: RuntimeError
+msgid "panel_below: can't find Panel Object"
+msgstr ""
+
+#: ValueError
+msgid "cannot convert float NaN to integer"
+msgstr ""
+
+#: ValueError
+msgid "embedded NUL character in %s"
+msgstr ""
+
+#: IndexError
+msgid "index out of bounds"
+msgstr ""
+
+#: ValueError
+msgid "bad marshal data (string size out of range)"
+msgstr ""
+
+#: IndexError
+msgid "array assignment index out of range"
+msgstr ""
+
+#: NameError
+msgid "global name '%.200s' is not defined"
+msgstr ""
+
+#: TypeError
+msgid "cannot copy this pattern object"
+msgstr ""
+
+#: BufferError
+msgid "memoryview: underlying buffer is not writable"
+msgstr ""
+
+#: TypeError
+msgid "If field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: OSError
+msgid "protocol not found"
+msgstr ""
+
+#: TypeError
+msgid "GeneratorExp field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: TypeError
+msgid "memoryview: length is not a multiple of itemsize"
+msgstr ""
+
+#: OverflowError
+msgid "maximum length can't fit in a C 'int'"
+msgstr ""
+
+#: ValueError
+msgid "Compare with no comparators"
+msgstr ""
+
+#: ValueError
+msgid "unknown elliptic curve name %R"
+msgstr ""
+
+#: TypeError
+msgid "The fill character must be exactly one character long"
+msgstr ""
+
+#: ValueError
+msgid "bad marshal data (set size out of range)"
+msgstr ""
+
+#: TypeError
+msgid "expect bytes or str of length 1, or int, got %s"
+msgstr ""
+
+#: ValueError
+msgid "field ctx is required for Tuple"
+msgstr ""
+
+#: TypeError
+msgid "Type %.100s doesn't support the buffer API"
+msgstr ""
+
+#: ValueError
+msgid "length of kwonlyargs is not the same as kw_defaults on arguments"
+msgstr ""
+
+#: ValueError
+msgid "field target is required for comprehension"
+msgstr ""
+
+#: ValueError
+msgid "write byte out of range"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Suite"
+msgstr ""
+
+#: RuntimeError
+msgid "unable to start watchdog thread"
+msgstr ""
+
+#: ValueError
+msgid ".filters must be a list"
+msgstr ""
+
+#: ValueError
+msgid "minute must be in 0..59"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from SetComp"
+msgstr ""
+
+#: TypeError
+msgid "character mapping must return integer, None or str"
+msgstr ""
+
+#: ValueError
+msgid "field value is required for Attribute"
+msgstr ""
+
+#: OSError
+msgid "control message too long"
+msgstr ""
+
+#: RuntimeError
+msgid "cannot release un-acquired lock"
+msgstr ""
+
+#: TypeError
+msgid "descriptor '%V' for type '%s' doesn't apply to type '%s'?"
+msgstr ""
+
+#: KeyError
+msgid "getgrnam(): name not found: %s"
+msgstr ""
+
+#: TypeError
+msgid "__slots__ items must be strings, not '%.200s'"
+msgstr ""
+
+#: SystemError
+msgid "invalid subscript kind %d"
+msgstr ""
+
+#: OverflowError
+msgid "string too long for Python bytes"
+msgstr ""
+
+#: OverflowError
+msgid "signed short integer is greater than maximum"
+msgstr ""
+
+#: TypeError
+msgid "cannot create 'stderrprinter' instances"
+msgstr ""
+
+#: TypeError
+msgid "%.200s.__dict__ is not a dictionary"
+msgstr ""
+
+#: TypeError
+msgid "spawnv() arg 2 must be a tuple or list"
+msgstr ""
+
+#: TypeError
+msgid "integer argument expected, got '%.200s'"
+msgstr ""
+
+#: TypeError
+msgid "non-bytes type in Bytes"
+msgstr ""
+
+#: ValueError
+msgid "number of bits must be greater than zero"
+msgstr ""
+
+#: TypeError
+msgid "encoder failed to return bytes"
+msgstr ""
+
+#: SystemError
+msgid "non-dict annotations"
+msgstr ""
+
+#: TypeError
+msgid "unpacked tuple should have %s%zd elements, but has %zdat most "
+msgstr ""
+
+#: NotImplementedError
+msgid "memoryview: unsupported format %s"
+msgstr ""
+
+#: ValueError
+msgid "invalid signal value"
+msgstr ""
+
+#: ValueError
+msgid "%R is not in list"
+msgstr ""
+
+#: ValueError
+msgid "filedescriptor out of range in select()"
+msgstr ""
+
+#: ValueError
+msgid "Cannot specify memory limit with FORMAT_RAW"
+msgstr ""
+
+#: ValueError
+msgid "could not convert string to float: %R"
+msgstr ""
+
+#: OverflowError
+msgid "count exceeds C integer size"
+msgstr ""
+
+#: ValueError
+msgid "expected a tuple of 2 integers"
+msgstr ""
+
+#: TypeError
+msgid "expected some sort of expr, but got %R"
+msgstr ""
+
+#: ValueError
+msgid "invalid ioctl command %d"
+msgstr ""
+
+#: NotImplementedError
+msgid "lockf not supported on OS/2 (EMX)"
+msgstr ""
+
+#: ValueError
+msgid "can't unpack IEEE 754 special value on non-IEEE platform"
+msgstr ""
+
+#: ValueError
+msgid "Inconsistent stream state"
+msgstr ""
+
+#: TypeError
+msgid "cannot copy this match object"
+msgstr ""
+
+#: ValueError
+msgid "len(shape) != len(strides)"
+msgstr ""
+
+#: ValueError
+msgid "%s: cannot use fd and follow_symlinks together"
+msgstr ""
+
+#: ValueError
+msgid "code: nlocals must not be negative"
+msgstr ""
+
+#: TypeError
+msgid "getstr requires 0 to 3 arguments"
+msgstr ""
+
+#: TypeError
+msgid ""
+"%s: %s%s #define == %d but sizeof(%s) == %dtest_list_api: reverse screwed "
+"uptest_dict_iteration: dict iteration went wrong "
+"hashinheritancetestertest_lazy_hash_inheritance: failed to create "
+"objecttest_lazy_hash_inheritance: type initialised too "
+"soontest_lazy_hash_inheritance: could not hash "
+"objecttest_lazy_hash_inheritance: type not initialised by "
+"hash()test_lazy_hash_inheritance: unexpected hash functionreport an "
+"errortest_long_apitestcapi_long.htest_longlong_apitestcapi_long.hFFFFFFFFFFFFFFFFFFFFFFFFtest_long_and_overflowreturn"
+" value was not set to -1test_long_and_overflowoverflow was not set to "
+"1test_long_and_overflowreturn value was not set to "
+"-1test_long_and_overflowoverflow was not set to "
+"1-FFFFFFFFFFFFFFFFFFFFFFFFtest_long_and_overflowreturn value was not set to "
+"-1test_long_and_overflowoverflow was not set to "
+"-1test_long_and_overflowreturn value was not set to "
+"-1test_long_and_overflowoverflow was not set to "
+"-1FFtest_long_and_overflowexpected return value "
+"0xFFtest_long_and_overflowoverflow was not cleared-"
+"FFtest_long_and_overflowexpected return value "
+"0xFFtest_long_and_overflowoverflow was set "
+"incorrectlytest_long_and_overflowexpected return value "
+"LONG_MAXtest_long_and_overflowoverflow was not "
+"clearedtest_long_and_overflowexpected return value "
+"LONG_MINtest_long_and_overflowoverflow was not "
+"clearedFFFFFFFFFFFFFFFFFFFFFFFFtest_long_long_and_overflowreturn value was "
+"not set to -1test_long_long_and_overflowoverflow was not set to "
+"1test_long_long_and_overflowreturn value was not set to "
+"-1test_long_long_and_overflowoverflow was not set to "
+"1-FFFFFFFFFFFFFFFFFFFFFFFFtest_long_long_and_overflowreturn value was not "
+"set to -1test_long_long_and_overflowoverflow was not set to "
+"-1test_long_long_and_overflowreturn value was not set to "
+"-1test_long_long_and_overflowoverflow was not set to "
+"-1FFtest_long_long_and_overflowexpected return value "
+"0xFFtest_long_long_and_overflowoverflow was not cleared-"
+"FFtest_long_long_and_overflowexpected return value "
+"0xFFtest_long_long_and_overflowoverflow was set "
+"incorrectlytest_long_long_and_overflowexpected return value "
+"PY_LLONG_MAXtest_long_long_and_overflowoverflow was not "
+"clearedtest_long_long_and_overflowexpected return value "
+"PY_LLONG_MINtest_long_long_and_overflowoverflow was not "
+"clearedtest_long_as_size_tPyLong_AsSize_t(None) didn't "
+"complaintest_long_as_size_tPyLong_AsSize_t(None) raised something other than"
+" TypeError"
+msgstr ""
+
+#: ValueError
+msgid "offset must be a timedelta representing a whole number of minutes"
+msgstr ""
+
+#: SystemError
+msgid "non-dict keyword only default args"
+msgstr ""
+
+#: TypeError
+msgid "first argument must a type object, not %.200s"
+msgstr ""
+
+#: TypeError
+msgid "Dict field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: TypeError
+msgid ""
+"type '%.100s' participates in gc and is a base type but has inappropriate "
+"tp_free slot"
+msgstr ""
+
+#: TypeError
+msgid "decoder did not return a str object (type=%.400s)"
+msgstr ""
+
+#: TypeError
+msgid "unsupported type for timedelta %s component: %s"
+msgstr ""
+
+#: ValueError
+msgid "month must be in 1..12"
+msgstr ""
+
+#: ValueError
+msgid "kwargannotation but no kwarg on arguments"
+msgstr ""
+
+#: TypeError
+msgid "expected int/long, %s found"
+msgstr ""
+
+#: TypeError
+msgid "tcsetattr: attributes[6] must be %d element list"
+msgstr ""
+
+#: RuntimeError
+msgid "More keyword list entries (%d) than format specifiers (%d)"
+msgstr ""
+
+#: ValueError
+msgid "list modified during sort"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from For"
+msgstr ""
+
+#: TypeError
+msgid "exceptions must derive from BaseException"
+msgstr ""
+
+#: ValueError
+msgid "Unknown Bluetooth protocol"
+msgstr ""
+
+#: MemoryError
+msgid "math.fsum partials"
+msgstr ""
+
+#: ValueError
+msgid "max_length must be greater than zero"
+msgstr ""
+
+#: RuntimeError
+msgid "super(): bad __class__ cell"
+msgstr ""
+
+#: OverflowError
+msgid "new string is too long"
+msgstr ""
+
+#: ValueError
+msgid "Invalid filter specifier for BCJ filter"
+msgstr ""
+
+#: TypeError
+msgid "expected some sort of cmpop, but got %R"
+msgstr ""
+
+#: OverflowError
+msgid "group id is greater than maximum"
+msgstr ""
+
+#: TypeError
+msgid "Global field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: TypeError
+msgid "expected an Element, not \\"
+msgstr ""
+
+#: SystemError
+msgid "wrong number of children for 'except' clause: %d"
+msgstr ""
+
+#: TypeError
+msgid "__repr__ returned non-string (type %.200s)"
+msgstr ""
+
+#: OverflowError
+msgid "Unable to allocate buffer - output too large"
+msgstr ""
+
+#: TypeError
+msgid "self must not be None"
+msgstr ""
+
+#: OverflowError
+msgid "getsockaddrarg: flowinfo must be 0-1048575."
+msgstr ""
+
+#: TypeError
+msgid "first argument must be a string, not %.80s"
+msgstr ""
+
+#: ValueError
+msgid "strerror() argument out of range"
+msgstr ""
+
+#: TypeError
+msgid "cannot create '%.100s' instances"
+msgstr ""
+
+#: TypeError
+msgid "can't apply this %s to %s object"
+msgstr ""
+
+#: TypeError
+msgid "can't send non-None value to a just-started generator"
+msgstr ""
+
+#: OverflowError
+msgid "input too long"
+msgstr ""
+
+#: ValueError
+msgid "unknown address family %d"
+msgstr ""
+
+#: SystemError
+msgid "Negative size passed to PyUnicode_FromStringAndSize"
+msgstr ""
+
+#: RuntimeError
+msgid "Calling Tcl from different appartment"
+msgstr ""
+
+#: ValueError
+msgid "%R is not in range"
+msgstr ""
+
+#: TypeError
+msgid "complex() second arg can't be a string"
+msgstr ""
+
+#: TypeError
+msgid "AST string must be of type str"
+msgstr ""
+
+#: ValueError
+msgid "None disallowed in statement list"
+msgstr ""
+
+#: TypeError
+msgid "bytearray indices must be integer"
+msgstr ""
+
+#: ValueError
+msgid "Invalid initialization option"
+msgstr ""
+
+#: SystemError
+msgid "invalid comp_op: has %d children"
+msgstr ""
+
+#: TypeError
+msgid ""
+"need to escape, but no escapechar setsingle empty field record must be "
+"quotedwriterow(sequence)\\n\\nConstruct and write a CSV record from a "
+"sequence of fields.  Non-string\\nelements will be converted to "
+"string.sequence expectedwriterows(sequence of sequences)\\n\\nConstruct and "
+"write a series of sequences to a csv file.  Non-string\\nelements will be "
+"converted to string.writerows() argument must be iterable"
+msgstr ""
+
+#: ValueError
+msgid "unsupported number of child nodes"
+msgstr ""
+
+#: ValueError
+msgid "field op is required for BoolOp"
+msgstr ""
+
+#: TypeError
+msgid "Can't instantiate abstract class %s with abstract methods %U"
+msgstr ""
+
+#: OverflowError
+msgid "unsigned long is greater than maximum"
+msgstr ""
+
+#: TypeError
+msgid "can assign only bytes, buffers, or iterables of ints in range(0, 256)"
+msgstr ""
+
+#: TypeError
+msgid "read() did not return a bytes object (type=%.400s)"
+msgstr ""
+
+#: RuntimeError
+msgid "input(): lost sys.stdout"
+msgstr ""
+
+#: TypeError
+msgid "__init__() should return None, not '%.200s'"
+msgstr ""
+
+#: TypeError
+msgid "\\ must be an 1-character string"
+msgstr ""
+
+#: TypeError
+msgid "can't delete numeric/char attribute"
+msgstr ""
+
+#: RuntimeError
+msgid "item size out of range for CMSG_LEN()"
+msgstr ""
+
+#: TypeError
+msgid "Delete field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: AttributeError
+msgid "This object has no __dict__"
+msgstr ""
+
+#: SystemError
+msgid "expected tuple for closure, got '%.100s'"
+msgstr ""
+
+#: ValueError
+msgid "Try has neither except handlers nor finalbody"
+msgstr ""
+
+#: SystemError
+msgid "suite should not be possible"
+msgstr ""
+
+#: TypeError
+msgid "__get__(None, None) is invalid"
+msgstr ""
+
+#: TypeError
+msgid "spawnvpe() arg 3 must be a mapping object"
+msgstr ""
+
+#: ValueError
+msgid "third argument must be a valid machine format code."
+msgstr ""
+
+#: TypeError
+msgid "%.200s attribute must be bytes"
+msgstr ""
+
+#: ValueError
+msgid ""
+"offset must be a timedelta representing a whole number of minutes, not %R."
+msgstr ""
+
+#: ValueError
+msgid "could not convert string to float"
+msgstr ""
+
+#: ValueError
+msgid "unsupported hash type"
+msgstr ""
+
+#: TypeError
+msgid "EllipsisType takes no arguments"
+msgstr ""
+
+#: SystemError
+msgid "extended slice invalid in nested slice"
+msgstr ""
+
+#: ImportError
+msgid "pyexpat version is incompatible"
+msgstr ""
+
+#: ValueError
+msgid "list.remove(x): x not in list"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from ListComp"
+msgstr ""
+
+#: RuntimeError
+msgid "No active exception to reraise"
+msgstr ""
+
+#: TypeError
+msgid "__build_class__: not enough arguments"
+msgstr ""
+
+#: TypeError
+msgid "nb_float should return float object"
+msgstr ""
+
+#: OverflowError
+msgid "getsockaddrarg: protoNumber must be 0-65535."
+msgstr ""
+
+#: TypeError
+msgid "execve: argv must be a tuple or list"
+msgstr ""
+
+#: TypeError
+msgid "list indices must be integers, not %.200s"
+msgstr ""
+
+#: ValueError
+msgid ""
+"Invalid compression preset: %dInvalid filter chain for FORMAT_ALONE - must "
+"be a single LZMA1 filter"
+msgstr ""
+
+#: EOFError
+msgid "EOF when reading a line"
+msgstr ""
+
+#: TypeError
+msgid "%s expected %s%zd arguments, got %zdat most "
+msgstr ""
+
+#: OverflowError
+msgid "timestamp out of range for platform time_t"
+msgstr ""
+
+#: ValueError
+msgid "field slice is required for Subscript"
+msgstr ""
+
+#: TypeError
+msgid "f.read() returned %.100s instead of bytes"
+msgstr ""
+
+#: ValueError
+msgid "Must specify filters for FORMAT_RAW"
+msgstr ""
+
+#: TypeError
+msgid "keyword list must be a dictionary"
+msgstr ""
+
+#: TypeError
+msgid "first argument must be a code object"
+msgstr ""
+
+#: RuntimeError
+msgid "deque mutated during iteration"
+msgstr ""
+
+#: LookupError
+msgid "unknown encoding: %s"
+msgstr ""
+
+#: OSError
+msgid "illegal IP address string passed to inet_aton"
+msgstr ""
+
+#: TypeError
+msgid "readonly attribute"
+msgstr ""
+
+#: ValueError
+msgid "mmap offset is greater than file size"
+msgstr ""
+
+#: TypeError
+msgid "array indices must be integer"
+msgstr ""
+
+#: ValueError
+msgid "parse_tuple_and_keywords: too many keywords in sub_keywords"
+msgstr ""
+
+#: ValueError
+msgid "PyNumber_ToBase: index not int or long"
+msgstr ""
+
+#: ValueError
+msgid "too many values to unpack (expected %d)"
+msgstr ""
+
+#: ValueError
+msgid "field id is required for Name"
+msgstr ""
+
+#: BufferError
+msgid "ND_GETBUF_FAIL: forced test exception"
+msgstr ""
+
+#: IndexError
+msgid "pop from an empty deque"
+msgstr ""
+
+#: SystemError
+msgid "frame does not exist"
+msgstr ""
+
+#: RuntimeError
+msgid ""
+"_compat_pickle.NAME_MAPPING values should be pairs of str, not (%.200s, "
+"%.200s)"
+msgstr ""
+
+#: ValueError
+msgid "utime: you may specify either 'times' or 'ns' but not both"
+msgstr ""
+
+#: TypeError
+msgid "tuple indices must be integers, not %.200s"
+msgstr ""
+
+#: ValueError
+msgid "field ctx is required for Subscript"
+msgstr ""
+
+#: TypeError
+msgid "argument to reversed() must be a sequence"
+msgstr ""
+
+#: SystemError
+msgid "unhandled small_stmt: TYPE=%d NCH=%d\\n"
+msgstr ""
+
+#: TypeError
+msgid "capath should be a valid filesystem path"
+msgstr ""
+
+#: RuntimeError
+msgid "Bad code object in .pyc file"
+msgstr ""
+
+#: OverflowError
+msgid "intermediate overflow during division"
+msgstr ""
+
+#: TypeError
+msgid "lineterminator must be set"
+msgstr ""
+
+#: TypeError
+msgid "arg must be list"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from excepthandler"
+msgstr ""
+
+#: ValueError
+msgid "BoolOp with less than 2 values"
+msgstr ""
+
+#: OverflowError
+msgid "long int larger than 32 bits"
+msgstr ""
+
+#: ValueError
+msgid "field test is required for Assert"
+msgstr ""
+
+#: TypeError
+msgid "cannot convert unicode object to bytes"
+msgstr ""
+
+#: ValueError
+msgid "bad file descriptor"
+msgstr ""
+
+#: OverflowError
+msgid "memory mapped offset must be positive"
+msgstr ""
+
+#: OverflowError
+msgid "index exceeds C integer size"
+msgstr ""
+
+#: OverflowError
+msgid ""
+"unpack requires a bytes object of length "
+"%zdbufferoffsetO|n:unpack_fromunpack_from requires a buffer of at least %zd "
+"bytesargument for 's' must be a bytes objectargument for 'p' must be a bytes"
+" objectlong too large to convert to int"
+msgstr ""
+
+#: TypeError
+msgid "descriptor '%V' for type '%s' needs either an object or a type?"
+msgstr ""
+
+#: ValueError
+msgid "timeout must be greater than 0"
+msgstr ""
+
+#: TypeError
+msgid "init_pair requires 3 arguments"
+msgstr ""
+
+#: TypeError
+msgid "Filter specifier must be a dict or dict-like object"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Import"
+msgstr ""
+
+#: TypeError
+msgid "Invalid address type"
+msgstr ""
+
+#: OverflowError
+msgid "regular expression code size limit exceeded"
+msgstr ""
+
+#: TypeError
+msgid "argument should be bytes, buffer or ASCII string, not %R"
+msgstr ""
+
+#: ValueError
+msgid "unrecognized configuration name"
+msgstr ""
+
+#: TypeError
+msgid "exception causes must derive from BaseException"
+msgstr ""
+
+#: ValueError
+msgid "array.index(x): x not in list"
+msgstr ""
+
+#: ValueError
+msgid "value not found in bytearray"
+msgstr ""
+
+#: ValueError
+msgid "not a const"
+msgstr ""
+
+#: ValueError
+msgid "negative LONG_BINPUT argument"
+msgstr ""
+
+#: TypeError
+msgid "newwin requires 2 or 4 arguments"
+msgstr ""
+
+#: TypeError
+msgid "cmp_contig: first argument does not implement the buffer protocol"
+msgstr ""
+
+#: OverflowError
+msgid "character doesn't fit in wchar_t"
+msgstr ""
+
+#: ValueError
+msgid "complex() arg is a malformed string"
+msgstr ""
+
+#: TypeError
+msgid "embedded NUL character"
+msgstr ""
+
+#: TypeError
+msgid "encoder did not return a bytes object (type=%.400s)"
+msgstr ""
+
+#: ValueError
+msgid "insecure string pickle"
+msgstr ""
+
+#: SystemError
+msgid "string is longer than the buffer"
+msgstr ""
+
+#: ValueError
+msgid "__len__() should return >= 0"
+msgstr ""
+
+#: TypeError
+msgid "gdbm mappings have bytes or string indices only"
+msgstr ""
+
+#: TypeError
+msgid "'%.100s' object has only read-only attributes (%s .%U)delassign to"
+msgstr ""
+
+#: TypeError
+msgid "ND_FORTRAN cannot be used together with strides"
+msgstr ""
+
+#: OverflowError
+msgid "strings are too large to concat"
+msgstr ""
+
+#: ValueError
+msgid "Compare has a different number of comparators and operands"
+msgstr ""
+
+#: TypeError
+msgid "missing format argument"
+msgstr ""
+
+#: ValueError
+msgid "invalid resource specified"
+msgstr ""
+
+#: ImportError
+msgid "No such frozen object named %R"
+msgstr ""
+
+#: TypeError
+msgid "type '%.100s' is not an acceptable base type"
+msgstr ""
+
+#: TypeError
+msgid "encoder did not return an str object (type=%.400s)"
+msgstr ""
+
+#: SystemError
+msgid "param invalid in subscript expression"
+msgstr ""
+
+#: ValueError
+msgid "incomplete format"
+msgstr ""
+
+#: TypeError
+msgid "dbm mappings have byte or string elements only"
+msgstr ""
+
+#: RuntimeError
+msgid "ancillary data does not fit in calculated space"
+msgstr ""
+
+#: ValueError
+msgid "Format specifier missing precision"
+msgstr ""
+
+#: TypeError
+msgid "ndarray data cannot be deleted"
+msgstr ""
+
+#: IndexError
+msgid "no such group"
+msgstr ""
+
+#: OSError
+msgid "AF_CAN interface name too long"
+msgstr ""
+
+#: ValueError
+msgid "pow() 3rd argument cannot be 0"
+msgstr ""
+
+#: TypeError
+msgid "copyreg._slotnames didn't return a list or None"
+msgstr ""
+
+#: TypeError
+msgid "%.500s() takes a dict as second arg, if any"
+msgstr ""
+
+#: ValueError
+msgid "field left is required for BinOp"
+msgstr ""
+
+#: ValueError
+msgid "get_pointer(): len(indices) != ndim"
+msgstr ""
+
+#: TypeError
+msgid "attribute value type must be bool"
+msgstr ""
+
+#: ValueError
+msgid "get_pointer(): invalid index %zd at position %zd"
+msgstr ""
+
+#: ValueError
+msgid "invalid key number"
+msgstr ""
+
+#: ValueError
+msgid "symlink: src and dst must be the same type"
+msgstr ""
+
+#: ValueError
+msgid "Unknown format code '%c' for object of type '%.200s'"
+msgstr ""
+
+#: ValueError
+msgid "negative buffersize in recv"
+msgstr ""
+
+#: TypeError
+msgid "OSType arg must be string of 4 chars"
+msgstr ""
+
+#: SystemError
+msgid "invalid comp_op: %s"
+msgstr ""
+
+#: TypeError
+msgid "package must be a string"
+msgstr ""
+
+#: ValueError
+msgid "r must be non-negative"
+msgstr ""
+
+#: KeyError
+msgid "undefined character name '%s'"
+msgstr ""
+
+#: TypeError
+msgid "sum() can't sum strings [use ''.join(seq) instead]"
+msgstr ""
+
+#: KeyError
+msgid "'__name__' not in globals"
+msgstr ""
+
+#: TypeError
+msgid "eval must be given globals and locals when called without a frame"
+msgstr ""
+
+#: TypeError
+msgid "memoryview.cast(): elements of shape must be integers"
+msgstr ""
+
+#: ValueError
+msgid "mmap length is too large"
+msgstr ""
+
+#: OverflowError
+msgid "unsigned byte integer is less than minimum"
+msgstr ""
+
+#: TypeError
+msgid "bkgdset requires 1 or 2 arguments"
+msgstr ""
+
+#: TypeError
+msgid "%.500s() takes an at most %zd-sequence (%zd-sequence given)"
+msgstr ""
+
+#: ValueError
+msgid "fromunicode() may only be called on unicode type arrays"
+msgstr ""
+
+#: ValueError
+msgid "field test is required for IfExp"
+msgstr ""
+
+#: ValueError
+msgid "symtable() arg 3 must be 'exec' or 'eval' or 'single'"
+msgstr ""
+
+#: TypeError
+msgid "__reduce_ex__ argument should an integer"
+msgstr ""
+
+#: ValueError
+msgid ""
+msgstr ""
+
+#: TypeError
+msgid "Nonlocal field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: OverflowError
+msgid "memory mapped %s must be positive"
+msgstr ""
+
+#: ValueError
+msgid "can't jump into the middle of a block"
+msgstr ""
+
+#: ValueError
+msgid "set_wakeup_fd only works in main thread"
+msgstr ""
+
+#: OSError
+msgid "too much ancillary data"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from comprehension"
+msgstr ""
+
+#: SystemError
+msgid "logic error in count_comp_fors"
+msgstr ""
+
+#: TypeError
+msgid "gdbm mappings have byte or string elements only"
+msgstr ""
+
+#: EOFError
+msgid "invalid load key, '%c'."
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from IfExp"
+msgstr ""
+
+#: TypeError
+msgid "dbm mappings have bytes or string keys only"
+msgstr ""
+
+#: OverflowError
+msgid "signed integer is less than minimum"
+msgstr ""
+
+#: ValueError
+msgid "more positional defaults than args on arguments"
+msgstr ""
+
+#: TypeError
+msgid "optional 3rd arg must be a dictionary"
+msgstr ""
+
+#: ImportError
+msgid "from-import-* object has no __dict__ and no __all__"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Compare"
+msgstr ""
+
+#: ValueError
+msgid "subsection not found"
+msgstr ""
+
+#: SystemError
+msgid "PyArg_UnpackTuple() argument list is not a tuple"
+msgstr ""
+
+#: ValueError
+msgid "Out of range float values are not JSON compliant"
+msgstr ""
+
+#: BufferError
+msgid "ndarray is not contiguous"
+msgstr ""
+
+#: BufferError
+msgid "re-exporter does not provide format, shape or strides"
+msgstr ""
+
+#: OSError
+msgid "AF_UNIX path too long"
+msgstr ""
+
+#: TypeError
+msgid "unknown dialect\\ must be an integer"
+msgstr ""
+
+#: ValueError
+msgid "invalid protocol version"
+msgstr ""
+
+#: OSError
+msgid "packed IP wrong length for inet_ntoa"
+msgstr ""
+
+#: ValueError
+msgid "string argument should contain only ASCII characters"
+msgstr ""
+
+#: TypeError
+msgid "'%U' is an invalid keyword argument for this function"
+msgstr ""
+
+#: TypeError
+msgid "%s takes exactly one positional argument (%zd given)"
+msgstr ""
+
+#: ValueError
+msgid "field op is required for AugAssign"
+msgstr ""
+
+#: TypeError
+msgid "__complex__ should return a complex object"
+msgstr ""
+
+#: TypeError
+msgid "fileno() returned a non-integer"
+msgstr ""
+
+#: TypeError
+msgid "scroll requires 0 or 1 arguments"
+msgstr ""
+
+#: OverflowError
+msgid "group id is less than minimum"
+msgstr ""
+
+#: ValueError
+msgid "field value is required for keyword"
+msgstr ""
+
+#: TypeError
+msgid "can only append array (not \\) to array"
+msgstr ""
+
+#: SystemError
+msgid "invalid %s kind %d in subscript\\n"
+msgstr ""
+
+#: TypeError
+msgid "endswith first arg must be bytes or a tuple of bytes, not %s"
+msgstr ""
+
+#: TypeError
+msgid "overwrite requires one or seven arguments"
+msgstr ""
+
+#: TypeError
+msgid "encoder must return a tuple (object, integer)"
+msgstr ""
+
+#: RuntimeError
+msgid "lost builtins module"
+msgstr ""
+
+#: OverflowError
+msgid "Value too large for  type"
+msgstr ""
+
+#: TypeError
+msgid "mmap object doesn't support slice deletion"
+msgstr ""
+
+#: TypeError
+msgid "a __bases__ item causes an inheritance cycle"
+msgstr ""
+
+#: TypeError
+msgid "%s(dt) argument must be a datetime instance or None, not %.200s"
+msgstr ""
+
+#: TypeError
+msgid ""
+"metaclass conflict: the metaclass of a derived class must be a (non-strict) "
+"subclass of the metaclasses of all its bases"
+msgstr ""
+
+#: SyntaxError
+msgid "name '%U' is parameter and global"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Tuple"
+msgstr ""
+
+#: ValueError
+msgid "%U() requires a code object with %zd free vars, not %zd"
+msgstr ""
+
+#: TypeError
+msgid "can only assign array (not \\) to array slice"
+msgstr ""
+
+#: ValueError
+msgid "n must be >= 0"
+msgstr ""
+
+#: BufferError
+msgid "ndarray is not writable"
+msgstr ""
+
+#: ZeroDivisionError
+msgid "0.0 to a negative or complex power"
+msgstr ""
+
+#: TypeError
+msgid "'%.200s' object cannot be interpreted as an integer"
+msgstr ""
+
+#: ValueError
+msgid "module functions cannot set METH_CLASS or METH_STATIC"
+msgstr ""
+
+#: TypeError
+msgid "mmap object doesn't support item deletion"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from While"
+msgstr ""
+
+#: TypeError
+msgid "invalid indexing of scalar"
+msgstr ""
+
+#: ImportError
+msgid "Excluded frozen object named %R"
+msgstr ""
+
+#: ValueError
+msgid "method cannot be both class and static"
+msgstr ""
+
+#: ValueError
+msgid "sequence.index(x): x not in sequence"
+msgstr ""
+
+#: ValueError
+msgid "mmap item value must be in range(0, 256)"
+msgstr ""
+
+#: OverflowError
+msgid "timeout is out of range"
+msgstr ""
+
+#: ValueError
+msgid "string too large in _PyBytes_FormatLong"
+msgstr ""
+
+#: TypeError
+msgid "mmap can't modify a readonly memory map."
+msgstr ""
+
+#: TypeError
+msgid "ImportFrom field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: ValueError
+msgid "%s: can't specify dir_fd without matching path"
+msgstr ""
+
+#: SystemError
+msgid "unexpected token in 'if' statement: %s"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Assign"
+msgstr ""
+
+#: TypeError
+msgid "addnstr requires 2 to 5 arguments"
+msgstr ""
+
+#: ValueError
+msgid "second argument must be a valid type code"
+msgstr ""
+
+#: ValueError
+msgid "field value is required for AugAssign"
+msgstr ""
+
+#: TypeError
+msgid ""
+"construction from exporter object only takes 'obj', 'getbuf' and 'flags' "
+"arguments"
+msgstr ""
+
+#: ImportError
+msgid "cannot import name %S"
+msgstr ""
+
+#: OverflowError
+msgid "string to parse is too long"
+msgstr ""
+
+#: RuntimeError
+msgid "input(): lost sys.stdin"
+msgstr ""
+
+#: RuntimeError
+msgid "not holding the import lock"
+msgstr ""
+
+#: ValueError
+msgid "utime: cannot use dir_fd and follow_symlinks together on this platform"
+msgstr ""
+
+#: TypeError
+msgid "tzname.replace() did not return a string"
+msgstr ""
+
+#: TypeError
+msgid "derwin requires 2 or 4 arguments"
+msgstr ""
+
+#: NotImplementedError
+msgid "CreateSymbolicLink functions not found"
+msgstr ""
+
+#: ValueError
+msgid "invalid arguments"
+msgstr ""
+
+#: SystemError
+msgid "no locals when deleting %R"
+msgstr ""
+
+#: SystemError
+msgid "param invalid for name variable"
+msgstr ""
+
+#: RuntimeError
+msgid ""
+"I/O operations still in flight while destroying Overlapped object, the "
+"process may crash"
+msgstr ""
+
+#: TypeError
+msgid ""
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Module"
+msgstr ""
+
+#: ValueError
+msgid "line %d comes after the current code block"
+msgstr ""
+
+#: TypeError
+msgid "utime: 'ns' must be a tuple of two ints"
+msgstr ""
+
+#: TypeError
+msgid "attribute name must be string, not '%.200s'"
+msgstr ""
+
+#: TypeError
+msgid "can only assign non-empty tuple to %s.__bases__, not ()"
+msgstr ""
+
+#: TypeError
+msgid "can only assign string to %s.__name__, not '%s'"
+msgstr ""
+
+#: ValueError
+msgid "compile(): invalid optimize value"
+msgstr ""
+
+#: SystemError
+msgid "old style getargs format uses new features"
+msgstr ""
+
+#: ValueError
+msgid "mmap can't specify both access and flags, prot."
+msgstr ""
+
+#: TypeError
+msgid "'%.200s' object is not an iterator"
+msgstr ""
+
+#: TypeError
+msgid "getbuf argument only valid for construction from exporter object"
+msgstr ""
+
+#: ValueError
+msgid "field right is required for BinOp"
+msgstr ""
+
+#: OSError
+msgid "unable to determine login name"
+msgstr ""
+
+#: TypeError
+msgid "__qualname__ must be set to a string object"
+msgstr ""
+
+#: ValueError
+msgid "_inverted_registry[%ld] isn't a 2-tuple of strings"
+msgstr ""
+
+#: TypeError
+msgid "sep must be None or a string, not %.200s"
+msgstr ""
+
+#: TypeError
+msgid "%s() requires a dict argument, not '%s'"
+msgstr ""
+
+#: ValueError
+msgid "expression must have %s context but has %s instead"
+msgstr ""
+
+#: ValueError
+msgid "varargannotation but no vararg on arguments"
+msgstr ""
+
+#: OverflowError
+msgid "signed integer is greater than maximum"
+msgstr ""
+
+#: TypeError
+msgid "%s arg must be None or str"
+msgstr ""
+
+#: OSError
+msgid "address family mismatched"
+msgstr ""
+
+#: TypeError
+msgid "byte indices must be integers, not %.200s"
+msgstr ""
+
+#: TypeError
+msgid "mmap doesn't support item deletion"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Name"
+msgstr ""
+
+#: ValueError
+msgid "invalid normalization form"
+msgstr ""
+
+#: TypeError
+msgid ""
+"signal handler must be signal.SIG_IGN, signal.SIG_DFL, or a callable object"
+msgstr ""
+
+#: IOError
+msgid ""
+"can't read Zip file: %Rzlib# zipimport: zlib "
+"%s\\navailableUNAVAILABLEOlllllllrbzipimport: can not open file %U"
+msgstr ""
+
+#: TypeError
+msgid "certfile should be a valid filesystem path"
+msgstr ""
+
+#: TypeError
+msgid "duplicate base class"
+msgstr ""
+
+#: ValueError
+msgid "year is out of range"
+msgstr ""
+
+#: TypeError
+msgid "arg 3 must be a mapping or None, not %.100s"
+msgstr ""
+
+#: TypeError
+msgid "'%s' object is not callable"
+msgstr ""
+
+#: SystemError
+msgid "Cannot copy %s characters into a string of %s characters"
+msgstr ""
+
+#: TypeError
+msgid "'%.100s' does not support the buffer interface"
+msgstr ""
+
+#: TypeError
+msgid "tzinfo.%s() must return None or timedelta, not '%.200s'"
+msgstr ""
+
+#: TypeError
+msgid "'signed' is a keyword-only argument"
+msgstr ""
+
+#: ValueError
+msgid "Too many decimal digits in format string"
+msgstr ""
+
+#: TypeError
+msgid "%.400s constructor takes %s%zd positional argument%seither 0 or s"
+msgstr ""
+
+#: ValueError
+msgid "bad marshal data (tuple size out of range)"
+msgstr ""
+
+#: SystemError
+msgid "unexpected binary operation %d on a constant"
+msgstr ""
+
+#: OverflowError
+msgid "getservbyport: port must be 0-65535."
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Lambda"
+msgstr ""
+
+#: ValueError
+msgid "field ctx is required for List"
+msgstr ""
+
+#: TypeError
+msgid "timeout must be a float or None"
+msgstr ""
+
+#: ValueError
+msgid "field s is required for Str"
+msgstr ""
+
+#: ValueError
+msgid "recursion limit must be positive"
+msgstr ""
+
+#: TypeError
+msgid "expected an object with a buffer interface"
+msgstr ""
+
+#: TypeError
+msgid "can't intern %.400s"
+msgstr ""
+
+#: RuntimeError
+msgid "super(): __class__ is not a type (%s)"
+msgstr ""
+
+#: TypeError
+msgid "mro() returned a non-class ('%.500s')"
+msgstr ""
+
+#: SystemError
+msgid ""
+"Bad call flags in PyCFunction_Call. METH_OLDARGS is no longer supported!"
+msgstr ""
+
+#: TypeError
+msgid "set_%.50s(func): argument not callable"
+msgstr ""
+
+#: ValueError
+msgid "minute out of range"
+msgstr ""
+
+#: NotImplementedError
+msgid "multi-dimensional slicing is not implemented"
+msgstr ""
+
+#: ValueError
+msgid "None disallowed in expression list"
+msgstr ""
+
+#: ValueError
+msgid ""
+"fast mode: can't pickle cyclic objects including object type %.200s at %p"
+msgstr ""
+
+#: TypeError
+msgid "methodcaller needs at least one argument, the method name"
+msgstr ""
+
+#: IndexError
+msgid "bytearray index out of range"
+msgstr ""
+
+#: TypeError
+msgid "string/buffer of bytes required."
+msgstr ""
+
+#: ValueError
+msgid "strides must be a multiple of itemsize"
+msgstr ""
+
+#: BufferError
+msgid "underlying buffer is not writable"
+msgstr ""
+
+#: TypeError
+msgid "__traceback__ may not be deleted"
+msgstr ""
+
+#: ValueError
+msgid "CODESET is not set or empty"
+msgstr ""
+
+#: TypeError
+msgid "__slots__ must be identifiers"
+msgstr ""
+
+#: ValueError
+msgid "negative size"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from With"
+msgstr ""
+
+#: IndexError
+msgid "array index out of range"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from BoolOp"
+msgstr ""
+
+#: ValueError
+msgid "array.remove(x): x not in list"
+msgstr ""
+
+#: AttributeError
+msgid "'%.50s' object attribute '%U' is read-only"
+msgstr ""
+
+#: TypeError
+msgid "Assign field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: ValueError
+msgid "unsupported format character '%c' (0x%x) at index %zd"
+msgstr ""
+
+#: ValueError
+msgid "strftime format ends with raw %"
+msgstr ""
+
+#: TypeError
+msgid "__defaults__ must be set to a tuple object"
+msgstr ""
+
+#: SystemError
+msgid "param invalid for global variable"
+msgstr ""
+
+#: TypeError
+msgid "int() missing string argument"
+msgstr ""
+
+#: TypeError
+msgid "memoryview: cast must be 1D -> ND or ND -> 1D"
+msgstr ""
+
+#: OverflowError
+msgid "int is too large to format"
+msgstr ""
+
+#: TypeError
+msgid "memoryview: cannot cast view with zeros in shape or strides"
+msgstr ""
+
+#: TypeError
+msgid "cannot modify read-only memory"
+msgstr ""
+
+#: ValueError
+msgid "invalid integer value: %R"
+msgstr ""
+
+#: TypeError
+msgid "string indices must be integers"
+msgstr ""
+
+#: TypeError
+msgid "__class__ assignment: only for heap types"
+msgstr ""
+
+#: EOFError
+msgid "Ran out of input"
+msgstr ""
+
+#: TypeError
+msgid "memoryview: invalid slice key"
+msgstr ""
+
+#: ValueError
+msgid "day of month out of range"
+msgstr ""
+
+#: BufferError
+msgid ""
+"memoryview: cannot cast to unsigned bytes if the format flag is present"
+msgstr ""
+
+#: MemoryError
+msgid "Can't allocate memory for decompression object"
+msgstr ""
+
+#: TypeError
+msgid "setgroups argument must be a sequence"
+msgstr ""
+
+#: KeyError
+msgid "getpwuid(): uid not found: %S"
+msgstr ""
+
+#: RuntimeError
+msgid "memoryview: internal error in richcompare"
+msgstr ""
+
+#: AttributeError
+msgid "characters_written"
+msgstr ""
+
+#: ValueError
+msgid "path too long"
+msgstr ""
+
+#: ValueError
+msgid "field body is required for IfExp"
+msgstr ""
+
+#: OverflowError
+msgid "intermediate overflow in fsum"
+msgstr ""
+
+#: IOError
+msgid ""
+"can't read Zip file: %Rbad local file header in %Ucan't read Zip file: "
+"%Rcan't read Zip file: %Rzipimport: can't read data"
+msgstr ""
+
+#: TypeError
+msgid "changelist is not iterable"
+msgstr ""
+
+#: SystemError
+msgid "no locals found during 'import *'"
+msgstr ""
+
+#: TypeError
+msgid "__build_class__: name is not a string"
+msgstr ""
+
+#: RuntimeError
+msgid "internal error in regular expression engine"
+msgstr ""
+
+#: RuntimeError
+msgid "Set changed size during iteration"
+msgstr ""
+
+#: ValueError
+msgid "character out of range"
+msgstr ""
+
+#: SystemError
+msgid "improper number of parts to 'assert' statement: %d"
+msgstr ""
+
+#: TypeError
+msgid "super(type, obj): obj must be an instance or subtype of type"
+msgstr ""
+
+#: TypeError
+msgid "expected bytes, %.200s found"
+msgstr ""
+
+#: TypeError
+msgid "order must be a string"
+msgstr ""
+
+#: TypeError
+msgid "getkey requires 0 or 2 arguments"
+msgstr ""
+
+#: BufferError
+msgid "writable contiguous buffer requested for a non-contiguous object."
+msgstr ""
+
+#: RuntimeError
+msgid "unable to get sys.stderr"
+msgstr ""
+
+#: ValueError
+msgid "file descriptor out of range for select"
+msgstr ""
+
+#: TypeError
+msgid "Module field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: TypeError
+msgid "__cause__ may not be deleted"
+msgstr ""
+
+#: SystemError
+msgid "In structseq_repr(), member %d name is NULL for type %.500s"
+msgstr ""
+
+#: TypeError
+msgid "%.500s() takes an at least %zd-sequence (%zd-sequence given)"
+msgstr ""
+
+#: TypeError
+msgid "nonempty __slots__ not supported for subtype of '%s'"
+msgstr ""
+
+#: ValueError
+msgid "chr() arg not in range(0x110000)"
+msgstr ""
+
+#: ValueError
+msgid "comprehension with no generators"
+msgstr ""
+
+#: TypeError
+msgid "end must be None or a string, not %.200s"
+msgstr ""
+
+#: ValueError
+msgid "__getformat__() argument 1 must be 'double' or 'float'"
+msgstr ""
+
+#: OverflowError
+msgid "timestamp out of range"
+msgstr ""
+
+#: OverflowError
+msgid "byte string is too large"
+msgstr ""
+
+#: ValueError
+msgid "call stack is not deep enough"
+msgstr ""
+
+#: OSError
+msgid "service/proto not found"
+msgstr ""
+
+#: OverflowError
+msgid "Python int too large to convert to C long"
+msgstr ""
+
+#: ValueError
+msgid "field ctx is required for Starred"
+msgstr ""
+
+#: NameError
+msgid "free variable '%.200s' referenced before assignment in enclosing scope"
+msgstr ""
+
+#: TypeError
+msgid "unorderable types: %.100s() %s %.100s()"
+msgstr ""
+
+#: SystemError
+msgid "unexpected expression in assignment %d (line %d)"
+msgstr ""
+
+#: TypeError
+msgid "unsupported operand type(s) for ** or pow(): '%.100s' and '%.100s'"
+msgstr ""
+
+#: ValueError
+msgid "day of week out of range"
+msgstr ""
+
+#: ValueError
+msgid "sequence2st() requires a single sequence argument"
+msgstr ""
+
+#: ValueError
+msgid "nesting too deep in _flatten"
+msgstr ""
+
+#: ZeroDivisionError
+msgid "0.0 cannot be raised to a negative power"
+msgstr ""
+
+#: TypeError
+msgid " must be a list or a tuple"
+msgstr ""
+
+#: TypeError
+msgid "memoryview: invalid type for format '%s'"
+msgstr ""
+
+#: ValueError
+msgid "repeat argument cannot be negative"
+msgstr ""
+
+#: OverflowError
+msgid "join() result is too long for a Python string"
+msgstr ""
+
+#: NotImplementedError
+msgid "The NPN extension requires OpenSSL 1.0.1 or later."
+msgstr ""
+
+#: TypeError
+msgid "embedded null character"
+msgstr ""
+
+#: OverflowError
+msgid "unsigned short is less than minimum"
+msgstr ""
+
+#: OSError
+msgid "no interface with this name"
+msgstr ""
+
+#: TypeError
+msgid "an integer is required"
+msgstr ""
+
+#: TypeError
+msgid "NULL object in marshal data for list"
+msgstr ""
+
+#: TypeError
+msgid "dbm key must be string, not %.100s"
+msgstr ""
+
+#: OverflowError
+msgid "CPU number too large"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Num"
+msgstr ""
+
+#: TypeError
+msgid "persistent_id must be a callable taking one argument"
+msgstr ""
+
+#: BufferError
+msgid "memoryview: underlying buffer is not contiguous"
+msgstr ""
+
+#: ImportError
+msgid ""
+msgstr ""
+
+#: TypeError
+msgid "'_children' is not a list"
+msgstr ""
+
+#: RuntimeError
+msgid "_compat_pickle.REVERSE_IMPORT_MAPPING should be a dict, not %.200s"
+msgstr ""
+
+#: ValueError
+msgid "bad typecode (must be b, B, u, h, H, i, I, l, L, q, Q, f or d)"
+msgstr ""
+
+#: TypeError
+msgid "%.200s%s takes no argumentsfunction()"
+msgstr ""
+
+#: ValueError
+msgid "builtins=True requires Python >= 2.4"
+msgstr ""
+
+#: RuntimeError
+msgid "uninitialized staticmethod object"
+msgstr ""
+
+#: TypeError
+msgid "is_contiguous: object does not implement the buffer protocol"
+msgstr ""
+
+#: TypeError
+msgid "'memo' values must be 2-item tuples"
+msgstr ""
+
+#: BufferError
+msgid "list only has a single base"
+msgstr ""
+
+#: TypeError
+msgid "expected string or buffer"
+msgstr ""
+
+#: TypeError
+msgid "__dict__ must be set to a dictionary, not a '%.200s'"
+msgstr ""
+
+#: OverflowError
+msgid "width * nchannels too big for a C int"
+msgstr ""
+
+#: IndexError
+msgid "pop from empty array"
+msgstr ""
+
+#: TypeError
+msgid "%.500s() takes a %zd-sequence (%zd-sequence given)"
+msgstr ""
+
+#: ValueError
+msgid "execv() arg 2 must not be empty"
+msgstr ""
+
+#: ValueError
+msgid "astimezone() cannot be applied to a naive datetime"
+msgstr ""
+
+#: ValueError
+msgid "fromutc: non-None dst() result required"
+msgstr ""
+
+#: ValueError
+msgid "field op is required for BinOp"
+msgstr ""
+
+#: TypeError
+msgid "can't take floor or mod of complex number."
+msgstr ""
+
+#: AttributeError
+msgid "readonly attribute"
+msgstr ""
+
+#: IndexError
+msgid "string index out of range"
+msgstr ""
+
+#: TypeError
+msgid "attribute name must be a string"
+msgstr ""
+
+#: KeyError
+msgid "getgrgid(): gid not found: %S"
+msgstr ""
+
+#: OverflowError
+msgid "timeout is too large"
+msgstr ""
+
+#: IndexError
+msgid "child index out of range"
+msgstr ""
+
+#: ValueError
+msgid "category is not a subclass of Warning"
+msgstr ""
+
+#: ValueError
+msgid "memoryview.cast(): product(shape) > SSIZE_MAX"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from UnaryOp"
+msgstr ""
+
+#: TypeError
+msgid "overlay requires one or seven arguments"
+msgstr ""
+
+#: OverflowError
+msgid "can't convert negative number to unsigned long"
+msgstr ""
+
+#: ValueError
+msgid "field op is required for UnaryOp"
+msgstr ""
+
+#: TypeError
+msgid "can't delete __class__ attribute"
+msgstr ""
+
+#: TypeError
+msgid "file must have 'read' and 'readline' attributes"
+msgstr ""
+
+#: RuntimeError
+msgid "super(): arg[0] deleted"
+msgstr ""
+
+#: TypeError
+msgid "__int__ returned non-int (type %.200s)"
+msgstr ""
+
+#: OSError
+msgid "symbolic link privilege not held"
+msgstr ""
+
+#: BufferError
+msgid "memoryview has %zd exported buffer%ss"
+msgstr ""
+
+#: IndexError
+msgid "pop from empty stack"
+msgstr ""
+
+#: RuntimeError
+msgid "Tcl is threaded but _tkinter is not"
+msgstr ""
+
+#: OverflowError
+msgid "int doesn't fit in long"
+msgstr ""
+
+#: AttributeError
+msgid "delete non-existing Xxo attribute"
+msgstr ""
+
+#: OverflowError
+msgid "hexadecimal value too large to represent as a float"
+msgstr ""
+
+#: ValueError
+msgid ""
+"second item in terminal node must be a string, found %sthird item in "
+"terminal node must be an integer, found %sosunknown node type.unsupported "
+"number of child nodes"
+msgstr ""
+
+#: ValueError
+msgid "field value is required for YieldFrom"
+msgstr ""
+
+#: TypeError
+msgid "type __qualname__ must be a str, not %s"
+msgstr ""
+
+#: RuntimeError
+msgid "replace_panel: can't find Panel Object"
+msgstr ""
+
+#: OverflowError
+msgid "normalized days too large to fit in a C int"
+msgstr ""
+
+#: ValueError
+msgid "bad value(s) in fds_to_keep"
+msgstr ""
+
+#: ValueError
+msgid "deque.remove(x): x not in deque"
+msgstr ""
+
+#: OverflowError
+msgid "date value out of range"
+msgstr ""
+
+#: ValueError
+msgid "substring not found"
+msgstr ""
+
+#: MemoryError
+msgid "Out of memory while compressing data"
+msgstr ""
+
+#: ValueError
+msgid "RAND_pseudo_bytes"
+msgstr ""
+
+#: ZeroDivisionError
+msgid "complex division by zero"
+msgstr ""
+
+#: TypeError
+msgid "encoding or errors without a string argument"
+msgstr ""
+
+#: TypeError
+msgid "can't set bytearray slice from %.100s"
+msgstr ""
+
+#: TypeError
+msgid "getsockaddrarg: AF_NETLINK address must be tuple, not %.500s"
+msgstr ""
+
+#: TypeError
+msgid "mmap item value must be an int"
+msgstr ""
+
+#: SystemError
+msgid "bad memberdescr type"
+msgstr ""
+
+#: TypeError
+msgid "mmap indices must be integers"
+msgstr ""
+
+#: ValueError
+msgid "maketrans arguments must have same length"
+msgstr ""
+
+#: NotImplementedError
+msgid "GetFinalPathNameByHandle not available on this platform"
+msgstr ""
+
+#: ValueError
+msgid ""
+"memoryview: source format must be a native single character format prefixed "
+"with an optional '@'"
+msgstr ""
+
+#: ValueError
+msgid "tuple.index(x): x not in tuple"
+msgstr ""
+
+#: TypeError
+msgid "expected %d arguments, got %zd"
+msgstr ""
+
+#: OverflowError
+msgid "huge integer: number of bits overflows a Py_ssize_t"
+msgstr ""
+
+#: SystemError
+msgid "unmatched paren in format"
+msgstr ""
+
+#: TypeError
+msgid "%U() keywords must be strings"
+msgstr ""
+
+#: TypeError
+msgid "Set field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: TypeError
+msgid "sendfile() headers must be a sequence or None"
+msgstr ""
+
+#: TypeError
+msgid "encoding may not be deleted"
+msgstr ""
+
+#: TypeError
+msgid "argument 1 must be an iterator"
+msgstr ""
+
+#: ValueError
+msgid "Raise with cause but no exception"
+msgstr ""
+
+#: TypeError
+msgid "__bool__ should return bool, returned %s"
+msgstr ""
+
+#: SystemError
+msgid "unknown import statement: starts with command '%s'"
+msgstr ""
+
+#: ValueError
+msgid "need more than %d value%s to unpacks"
+msgstr ""
+
+#: ValueError
+msgid "PyMemoryView_FromBuffer(): info->buf must not be NULL"
+msgstr ""
+
+#: OverflowError
+msgid "byte string is too long"
+msgstr ""
+
+#: TypeError
+msgid "tzinfo argument must be None or of a tzinfo subclass, not type '%s'"
+msgstr ""
+
+#: ValueError
+msgid "file descriptor cannot be a negative integer (%i)"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from ClassDef"
+msgstr ""
+
+#: ImportError
+msgid "Loaded module does not contain symbol %.200s"
+msgstr ""
+
+#: ValueError
+msgid "hour out of range"
+msgstr ""
+
+#: TypeError
+msgid "can only assign string to %s.__qualname__, not '%s'"
+msgstr ""
+
+#: TypeError
+msgid "exec() arg 2 must be a dict, not %.100s"
+msgstr ""
+
+#: TypeError
+msgid "ndarray is not writable"
+msgstr ""
+
+#: TypeError
+msgid "cmp_contig: second argument does not implement the buffer protocol"
+msgstr ""
+
+#: TypeError
+msgid "other argument must be K instance"
+msgstr ""
+
+#: ValueError
+msgid "itemsize must not be zero"
+msgstr ""
+
+#: OSError
+msgid "unknown address family"
+msgstr ""
+
+#: ValueError
+msgid "dictionary update sequence element #%zd "
+msgstr ""
+
+#: ValueError
+msgid "not allowed to raise maximum limit"
+msgstr ""
+
+#: TypeError
+msgid "unsupported operand type(s) for %.100s: '%.100s' and '%.100s'"
+msgstr ""
+
+#: OverflowError
+msgid "math range error"
+msgstr ""
+
+#: OverflowError
+msgid "rounded value too large to represent"
+msgstr ""
+
+#: ValueError
+msgid "can't specify a timeout for a non-blocking call"
+msgstr ""
+
+#: AttributeError
+msgid "persistent_id"
+msgstr ""
+
+#: TypeError
+msgid "float(r) didn't return a float"
+msgstr ""
+
+#: IOError
+msgid "zipimport: can't read data"
+msgstr ""
+
+#: TypeError
+msgid "argument must be callable"
+msgstr ""
+
+#: TypeError
+msgid "__float__ returned non-float (type %.200s)"
+msgstr ""
+
+#: OverflowError
+msgid "cannot add more objects to bytearray"
+msgstr ""
+
+#: TypeError
+msgid "Argument given by name ('%s') and position (%d)"
+msgstr ""
+
+#: TypeError
+msgid "__traceback__ must be a traceback or None"
+msgstr ""
+
+#: ValueError
+msgid "Empty module name"
+msgstr ""
+
+#: RuntimeError
+msgid "uninitialized classmethod object"
+msgstr ""
+
+#: TypeError
+msgid "Initialization arguments are not supported"
+msgstr ""
+
+#: TypeError
+msgid "The fill character cannot be converted to Unicode"
+msgstr ""
+
+#: SystemError
+msgid "bad RAISE_VARARGS oparg"
+msgstr ""
+
+#: TypeError
+msgid "'registry' must be a dict"
+msgstr ""
+
+#: TypeError
+msgid "sum() can't sum bytes [use b''.join(seq) instead]"
+msgstr ""
+
+#: RuntimeError
+msgid ""
+"_compat_pickle.REVERSE_IMPORT_MAPPING values should be strings, not %.200s"
+msgstr ""
+
+#: BufferError
+msgid "ndarray cannot be represented without suboffsets"
+msgstr ""
+
+#: ValueError
+msgid "%s: cannot use dir_fd and follow_symlinks together"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from keyword"
+msgstr ""
+
+#: TypeError
+msgid "object does not provide __dir__"
+msgstr ""
+
+#: ValueError
+msgid "I/O operation on closed epoll fd"
+msgstr ""
+
+#: ValueError
+msgid "Invalid filter specifier for LZMA filter"
+msgstr ""
+
+#: OSError
+msgid "recvmsg_into() argument 1 is too long"
+msgstr ""
+
+#: ValueError
+msgid "parse_tuple_and_keywords: sub_keywords must be either list or tuple"
+msgstr ""
+
+#: NotImplementedError
+msgid "memoryview assignments are currently restricted to ndim = 1"
+msgstr ""
+
+#: RuntimeError
+msgid "XML_ParserCreate failed"
+msgstr ""
+
+#: TypeError
+msgid "%s.__bases__ must be tuple of classes, not '%s'"
+msgstr ""
+
+#: ValueError
+msgid "size must be positive"
+msgstr ""
+
+#: EOFError
+msgid "End of stream already reached"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Set"
+msgstr ""
+
+#: TypeError
+msgid "non-integer arguments in division"
+msgstr ""
+
+#: TypeError
+msgid "not enough arguments for format string"
+msgstr ""
+
+#: AttributeError
+msgid ""
+msgstr ""
+
+#: TypeError
+msgid "mappingproxy() argument must be a mapping, not %s"
+msgstr ""
+
+#: RuntimeError
+msgid "%s() returned ERRremove_lop: can't find Panel Object"
+msgstr ""
+
+#: TypeError
+msgid "touchline requires 2 or 3 arguments"
+msgstr ""
+
+#: TypeError
+msgid "get_wch requires 0 or 2 arguments"
+msgstr ""
+
+#: OSError
+msgid "getsockaddrarg: unsupported CAN protocol"
+msgstr ""
+
+#: SystemError
+msgid "invalid node type (%d) for augmented assignment"
+msgstr ""
+
+#: RuntimeError
+msgid "Bad magic number in .pyc file"
+msgstr ""
+
+#: OverflowError
+msgid "python int too large to convert to C unsigned long"
+msgstr ""
+
+#: ValueError
+msgid "unknown hash function"
+msgstr ""
+
+#: SystemError
+msgid "invalid augassign: %s"
+msgstr ""
+
+#: OverflowError
+msgid "join() result is too long for bytes"
+msgstr ""
+
+#: TypeError
+msgid "persistent_load must be a callable taking one argument"
+msgstr ""
+
+#: ValueError
+msgid "memoryview assignment: lvalue and rvalue have different structures"
+msgstr ""
+
+#: TypeError
+msgid "utime: 'times' must be either a tuple of two ints or None"
+msgstr ""
+
+#: TypeError
+msgid "%%%c format: a number is required, not %.200s"
+msgstr ""
+
+#: TypeError
+msgid "insstr requires 1 to 4 arguments"
+msgstr ""
+
+#: RuntimeError
+msgid "invalid slot offset"
+msgstr ""
+
+#: TypeError
+msgid "pickle.dumps() takes at most 2 positional argument (%zd given)"
+msgstr ""
+
+#: TypeError
+msgid "getnameinfo() argument 1 must be a tuple"
+msgstr ""
+
+#: IndexError
+msgid "deque mutated during remove()."
+msgstr ""
+
+#: ValueError
+msgid "read byte out of range"
+msgstr ""
+
+#: TypeError
+msgid "cannot add suboffsets to array without strides"
+msgstr ""
+
+#: TypeError
+msgid "expected sequence, not \\"
+msgstr ""
+
+#: TypeError
+msgid "attrib must be dict, not %.100s"
+msgstr ""
+
+#: TypeError
+msgid "keywords must be strings"
+msgstr ""
+
+#: BufferError
+msgid "Object is not writable."
+msgstr ""
+
+#: ValueError
+msgid "incomplete format key"
+msgstr ""
+
+#: ValueError
+msgid "Invalid address type"
+msgstr ""
+
+#: TypeError
+msgid "cannot deepcopy this match object"
+msgstr ""
+
+#: BufferError
+msgid "mmap can't resize with extant buffers exported."
+msgstr ""
+
+#: TypeError
+msgid "name tuples must contain only strings, not '%.500s'"
+msgstr ""
+
+#: ValueError
+msgid "invalid literal for int() with base %d: %R"
+msgstr ""
+
+#: OverflowError
+msgid "Python int too large to convert to C int"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from Global"
+msgstr ""
+
+#: ValueError
+msgid "length argument must be non-negative"
+msgstr ""
+
+#: TypeError
+msgid "dir(): expected keys() of locals to be a list, not '%.200s'"
+msgstr ""
+
+#: ZeroDivisionError
+msgid "float divmod()"
+msgstr ""
+
+#: SyntaxError
+msgid "not a chance"
+msgstr ""
+
+#: ValueError
+msgid "ordinal must be >= 1"
+msgstr ""
+
+#: OverflowError
+msgid "BINBYTES exceeds system's maximum size of %zd bytes"
+msgstr ""
+
+#: TypeError
+msgid "required field \\ missing from ImportFrom"
+msgstr ""
+
+#: TypeError
+msgid "inch requires 0 or 2 arguments"
+msgstr ""
+
+#: RuntimeError
+msgid ""
+"Unpickler.__init__() was not called by %s.__init__()find_class(module_name, "
+"global_name) -> object.\\n\\nReturn an object from a specified module, "
+"importing the module if\\nnecessary.  Subclasses may override this method "
+"(e.g. to restrict\\nunpickling of arbitrary classes and "
+"functions).\\n\\nThis method is called whenever a class or a function object"
+" is\\nneeded.  Both arguments passed are str "
+"objects.\\nfind_class_compat_pickle.NAME_MAPPING values should be 2-tuples, "
+"not %.200s"
+msgstr ""
+
+#: ValueError
+msgid "field func is required for Call"
+msgstr ""
+
+#: OverflowError
+msgid "Cannot pass infinity to float.as_integer_ratio."
+msgstr ""
+
+#: ValueError
+msgid "prec too big"
+msgstr ""
+
+#: OverflowError
+msgid "sched_priority out of range"
+msgstr ""
+
+#: TypeError
+msgid "ClassDef field \\ must be a list, not a %.200s"
+msgstr ""
+
+#: TypeError
+msgid "%.200s is not a subtype of %.200s"
+msgstr ""
+
+#: IOError
+msgid "Invalid data stream"
+msgstr ""
+
+#: ValueError
+msgid "string length not a multiple of item size"
+msgstr ""
+
+#: RuntimeError
+msgid "list changed size during iteration"
+msgstr ""
+
+#: TypeError
+msgid "insch requires 1 or 4 arguments"
+msgstr ""
+
+#: ImportError
+msgid "Module use of %.150s conflicts with this version of Python."
+msgstr ""
+
+#: TypeError
+msgid "spawnvp() arg 2 must contain only strings"
+msgstr ""
+
+#: ValueError
+msgid "integer out of range for \\"
+msgstr ""
+
+#: ValueError
+msgid "empty %s on %s"
+msgstr ""
+
+#: TypeError
+msgid "expected some sort of mod, but got %R"
+msgstr ""
+
+#: ValueError
+msgid "fcntl string arg too long"
+msgstr ""
+
+#: TypeError
+msgid "addch requires 1 to 4 arguments"
+msgstr ""
+
+#: TypeError
+msgid "Expected an int or long as second argument to ldexp."
+msgstr ""
+
+#: TypeError
+msgid "can't mod complex numbers."
+msgstr ""
+
+#: ValueError
+msgid ""
+"offset must be a timedelta strictly between -timedelta(hours=24) and "
+"timedelta(hours=24)."
+msgstr ""
+
+#: MemoryError
+msgid "Can't allocate memory for compression object"
+msgstr ""
+
+#: TypeError
+msgid ""
+"first maketrans argument must be a string if there is a second argument"
+msgstr ""
+
+#: ValueError
+msgid "keys must return list"
+msgstr ""
+
+#: ValueError
+msgid "need at most %zd handles, got a sequence of length %zd"
+msgstr ""

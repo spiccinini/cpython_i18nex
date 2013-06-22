@@ -6,7 +6,7 @@ from collections import defaultdict, namedtuple
 import polib
 
 ExceptionObj = namedtuple("ExceptionObj", ['name', 'text'])
-TranslationObj = namedtuple("ExceptionObj", ['exc_name', 'exc_text', 'language_code', 'translation'])
+TranslationObj = namedtuple("TranslationObj", ['exc_name', 'exc_text', 'language_code', 'translation'])
 
 class Database(object):
     def __init__(self, data=None):
@@ -23,7 +23,7 @@ class Database(object):
 
     @classmethod
     def load_from_pickle(cls, file_obj):
-        return ExceptionDatabase(pickle.load(file_obj))
+        return cls(pickle.load(file_obj))
 
     def pprint(self):
         pprint.pprint(self.data)
