@@ -22,7 +22,6 @@ if __name__ == "__main__":
             db = TranslationDatabase.load_from_pickle(f)
 
     db.import_from_po(args.infile, args.language_code)
-    import pdb;pdb.set_trace()
 
     with open(args.db, 'wb') as fout:
         db.dump(fout)
