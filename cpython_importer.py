@@ -76,6 +76,7 @@ class CPythonExceptionImporter(object):
             ExceptionObj("NameError",
                          "free variable '%.200s' referenced " \
                          "before assignment in enclosing scope"),
+            ExceptionObj("SyntaxError", "invalid syntax"),
         }
 
 if __name__ == "__main__":
@@ -93,7 +94,7 @@ if __name__ == "__main__":
     db = ExceptionDatabase(exceptions)
 
     print("%d Exceptions imported" % len(exceptions))
-    out_filename = './db.pickle'
+    out_filename = './exc_db.pickle'
     with open(out_filename, 'wb') as f:
         db.dump(f)
         print('Database written to %s' % out_filename)
