@@ -155,6 +155,8 @@ class DatabaseTest(unittest.TestCase):
         db = TranslationDatabase()
         db.import_from_po('./test_data/some_es.po', 'es')
         self.assertEqual(len(db.all()), 3)
+        trans = db.get("ValueError", "%s too long", 'es')
+        self.assertEqual(trans.translation, "%s muy largo")
 
 
 
