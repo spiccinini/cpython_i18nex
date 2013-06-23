@@ -25,7 +25,7 @@ class ExceptionTranslatorSearchTests(unittest.TestCase):
         exc = translator.search_exception("ZeroDivisionError",
                                             "division by zero")
         self.assertEqual(exc, None)
-        
+
     def test_match_equal(self):
         exc = translator.search_exception("SyntaxError",
                                             "EOL while scanning string literal")
@@ -40,7 +40,7 @@ class ExceptionTranslatorSearchTests(unittest.TestCase):
         exc = translator.search_exception("NameError",
                                               "name 'a' is not defined. Neither is 'b'")
         self.assertEqual(exc.text, "name %s is not defined. Neither is %s")
-        
+
     def test_match_with_complex_format(self):
         exc = translator.search_exception("TypeError",
                                               "argument should be 748.ble, not bla132.41jvv vnslvn")
@@ -78,6 +78,7 @@ class ExceptionTranslatorTranslationTests(unittest.TestCase):
         formatted_msg = "argument should be 748.ble, not bla132.41jvv vnslvn"
         translated_msg = translator.translate(exc_name, formatted_msg)
         self.assertEqual(translated_msg, "argumento debe ser 748.ble, no bla132.41jvv vnslvn")
+
 
 if __name__ == "__main__":
     unittest.main()
