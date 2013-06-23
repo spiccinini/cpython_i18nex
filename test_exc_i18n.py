@@ -9,6 +9,7 @@ exc_db.add(ExceptionObj(name="SyntaxError", text="EOL while scanning string lite
 exc_db.add(ExceptionObj(name="NameError", text="name %s is not defined"))
 exc_db.add(ExceptionObj(name="NameError", text="name %s is not defined. Neither is %s"))
 exc_db.add(ExceptionObj(name="TypeError", text="argument should be %s, not %.200s"))
+exc_db.add(ExceptionObj(name="Whatever", text="this exception is not translated"))
 
 trans_db = TranslationDatabase()
 trans_db.add(TranslationObj(exc_name="SyntaxError", exc_text="EOL while scanning string literal", language_code="es", translation="te olvidaste una comilla pelandrún"))
@@ -59,6 +60,18 @@ class ExceptionTranslatorTranslationTests(unittest.TestCase):
         exc = ExceptionObj(name="SyntaxError", text="EOL while scanning string literal")
         trans = translator.search_translation(exc)
         self.assertEqual(trans.translation, "te olvidaste una comilla pelandrún")
+
+    def test_missing_translation(self):
+        translator.set_language_code('es')
+        exc_name = "Whatever"
+        formatted_msg = "this exception is not translated"
+        self.assertRaises(exc_i18n.TranslationMissing, translator.translate, exc_name, formatted_msg)
+
+    def test_translation_not_supported(self):
+        translator.set_language_code('es')
+        exc_name = "Whatever"
+        formatted_msg = "this exception is not in the database"
+        self.assertRaises(exc_i18n.TranslationNotSupported, translator.translate, exc_name, formatted_msg)
 
     def test_translate_simple(self):
         exc_name = "TypeError"

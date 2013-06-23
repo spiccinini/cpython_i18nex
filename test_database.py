@@ -127,13 +127,11 @@ class DatabaseTest(unittest.TestCase):
         self.assertEqual(len(db.filter(name="ValueError")), 2)
         self.assertEqual(len(db.filter(name="NameError")), 0)
 
-    def test_filter_by_name_and_lang(self):
+    def test_get(self):
         db = TranslationDatabase()
         db.add(TranslationObj("ValueError", '%s too long', 'en', ''))
         db.add(TranslationObj("ValueError", '%s es muy largo', 'es', ''))
-        self.assertEqual(len(db.filter(exc_name="ValueError", lang='es')), 1)
-        self.assertEqual(len(db.filter(exc_name="ValueError", lang='en')), 1)
-        self.assertEqual(len(db.filter(exc_name="NameError")), 0)
+        self.assertTrue(db.get("ValueError", '%s es muy largo', 'es'))
 
     def test_load_from_pickle(self):
         with open('./db.pickle', 'rb') as f:

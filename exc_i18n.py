@@ -4,22 +4,10 @@ import sys
 import re
 import traceback
 
+class TranslationMissing(Exception):
+    pass
 
-#translations = {
-    #"EOL while scanning string literal": {"ES": "Te falta una comilla papá"}, {'EN': ''}
-    #"name %s is not defined": {"ES": "el nombre %s no está definido"}
-    #}
-
-#TranslationObj = namedtuple("TranslationObj", ['name', 'text', 'language_code'])
-
-#class TranslationDatabase(object):
-    #def __init__(self, translations=None):
-        #self.translations = translations if translations else set()
-    
-    #def add(self, translation):
-        #self.translation.add(translation)
-
-class MissingTranslationError(Exception):
+class TranslationNotSupported(Exception):
     pass
 
 class ExceptionTranslator(object):
@@ -72,7 +60,11 @@ class ExceptionTranslator(object):
             trans = self.search_translation(exc)
             if trans:
                 values = self.extract_values(exc, formatted_msg)
-                return trans.translation % values        
+                return trans.translation % values
+            else:
+                raise(TranslationMissing('El mensaje de excepción aún no ha sido traducido. Colabora!'))
+        else:
+            raise(TranslationNotSupported('La excepción no está soportada en el sistema de traducción'))
     
     def show_translation(self):
         pass
