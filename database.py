@@ -91,7 +91,7 @@ class TranslationDatabase(Database):
 
 if __name__ == "__main__":
     import pprint
-    with open('./db.pickle', 'rb') as f:
+    with open('./exc_db.pickle', 'rb') as f:
         db = ExceptionDatabase.load_from_pickle(f)
 
     print("%d Exceptions" % len(db.all()))
