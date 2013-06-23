@@ -703,7 +703,7 @@ msgstr ""
 
 #: NameError
 msgid "name '%.200s' is not defined"
-msgstr ""
+msgstr "el nombre '%.200s' no está definido"
 
 #: TypeError
 msgid "%s arg must be None or str"
@@ -4960,7 +4960,7 @@ msgstr ""
 
 #: SyntaxError
 msgid "invalid syntax"
-msgstr ""
+msgstr "sintaxis inválida"
 
 #: SystemError
 msgid "unknown cmpop found"
@@ -6812,7 +6812,7 @@ msgstr ""
 
 #: ZeroDivisionError
 msgid "division by zero"
-msgstr ""
+msgstr "división por cero"
 
 #: ValueError
 msgid "field value is required for Starred"

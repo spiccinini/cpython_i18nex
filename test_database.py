@@ -134,7 +134,7 @@ class DatabaseTest(unittest.TestCase):
         self.assertTrue(db.get("ValueError", '%s es muy largo', 'es'))
 
     def test_load_from_pickle(self):
-        with open('./db.pickle', 'rb') as f:
+        with open('./exc_db.pickle', 'rb') as f:
             db = ExceptionDatabase.load_from_pickle(f)
         self.assertTrue(len(db.all()) > 100)
 
