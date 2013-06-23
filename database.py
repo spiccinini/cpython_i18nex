@@ -61,18 +61,16 @@ class ExceptionDatabase(Database):
 class TranslationDatabase(Database):
     def __init__(self, translations=None):
         super().__init__(translations)
-
-    
-    def filter(self, exc_name=None, lang=None):
-        def cond(val, exc_name, lang):
-            result = True
-            if exc_name is not None:
-                result = result and val.exc_name == exc_name
-            if lang is not None:
-                result = result and val.language_code == lang
-            return result
-        return {trans for trans in self.translations if cond(trans, exc_name, lang)}
      
+    def get(self, exc_name, exc_text, lang):
+        result = None
+        for trans in self.translations:
+            if trans.exc_name == exc_name and trans.exc_text == exc_text \
+              and trans.language_code == lang:
+                result = trans
+                break                
+        return result
+
     @property
     def translations(self):
         return self.data
