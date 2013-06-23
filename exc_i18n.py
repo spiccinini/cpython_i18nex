@@ -28,7 +28,7 @@ class ExceptionTranslator(object):
         self.language_code = language_code
         
     def _build_deformating_regex(self, exc):
-        fmt_term_chars = 'sd'
+        fmt_term_chars = 'sdSzcRxUV'
         split_pattern = '%%.*?[%s]' % fmt_term_chars
         # replace every format pattern (eg. %.10s) by .*? so it will match the
         # actual error with values replaced, and group them to obtain the values
