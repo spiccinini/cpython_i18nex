@@ -84,7 +84,7 @@ class TranslationDatabase(Database):
         po = polib.pofile(path)
         valid_entries = [e for e in po if not e.obsolete]
         for entry in valid_entries:
-            self.add(TranslationObj(exc_name=entry.occurrences[0],
+            self.add(TranslationObj(exc_name=entry.occurrences[0][0],
                                     exc_text=entry.msgid,
                                     language_code=language_code,
                                     translation=entry.msgstr))
