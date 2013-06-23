@@ -77,6 +77,7 @@ class CPythonExceptionImporter(object):
                          "free variable '%.200s' referenced " \
                          "before assignment in enclosing scope"),
             ExceptionObj("SyntaxError", "invalid syntax"),
+            ExceptionObj("ImportError", "No module named 'urrlib'"),
         }
 
 if __name__ == "__main__":
