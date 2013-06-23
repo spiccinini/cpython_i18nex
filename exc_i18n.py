@@ -3,12 +3,15 @@
 import sys
 import re
 import traceback
+from database import ExceptionDatabase, TranslationDatabase
 
 class TranslationMissing(Exception):
     pass
 
 class TranslationNotSupported(Exception):
     pass
+
+translator = None
 
 class ExceptionTranslator(object):
     
@@ -18,6 +21,7 @@ class ExceptionTranslator(object):
         self.language_code = self.detect_language_code()
 
     def detect_language_code(self):
+        #TODO: read actual value from environment
         return 'es'
     
     def set_language_code(self, language_code):
@@ -69,3 +73,21 @@ class ExceptionTranslator(object):
     def show_translation(self):
         pass
     
+def i18n_hook(etype, value, tb):
+    trans_message = translator.translate(etype.__name__, value.args[0])
+    sys.stderr.write("%s: %s\n" % (etype.__name__, trans_message))
+    sys.stderr.flush()
+    
+def activate():
+    global translator
+    with open('./db.pickle', 'rb') as f:
+        exc_db = ExceptionDatabase.load_from_pickle(f)
+    with open('./trans.pickle', 'rb') as f:
+        trans_db = TranslationDatabase.load_from_pickle(f)
+    
+    translator = ExceptionTranslator(exc_db, trans_db)
+    sys.excepthook = i18n_hook
+
+def set_language_code(language_code):
+    activate()
+    translator.set_language_code(language_code)
